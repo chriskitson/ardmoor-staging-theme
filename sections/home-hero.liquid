@@ -1,0 +1,291 @@
+<section data-section-id="{{ section.id }}" data-section-settings='{{ section_settings }}' class="hero">
+  <div class="container">
+    {%- if section.settings.split_view -%}
+      <div class="hero__main hero__main--split hero__main--text-{{ section.settings.text_colour }}">
+    {%- else -%}
+      <div class="hero__main hero__main--full hero__main--text-{{ section.settings.text_colour }}">
+    {%- endif -%}
+      <div class="hero__main__item">
+        {%- if section.settings.split_view -%}
+          <a href="{{ section.settings.main_category_link }}" class="hero__main__item__image"><img src="{{ section.settings.main_image | img_url: '700x480', crop: 'center' }}" alt="{{ section.settings.main_image.alt | escape }}" /></a>
+        {%- else -%}
+          <a href="{{ section.settings.main_category_link }}" class="hero__main__item__image"><img src="{{ section.settings.main_image | img_url: '1400x480', crop: 'center' }}" alt="{{ section.settings.main_image.alt | escape }}" /></a>
+        {%- endif -%}
+        <a href="{{ section.settings.main_category_link }}" class="hero__main__item__heading">{{ section.settings.main_category_heading }} &raquo;</a>
+      </div>
+       {%- if section.settings.split_view -%}
+        <div class="hero__main__item">
+          <a href="{{ section.settings.split_category_link }}" class="hero__main__item__image"><img src="{{ section.settings.split_image | img_url: '700x480', crop: 'center' }}" alt="{{ section.settings.split_image.alt | escape }}" /></a>
+          <a href="{{ section.settings.split_category_link }}" class="hero__main__item__heading">{{ section.settings.split_category_heading }} &raquo;</a>
+        </div>
+      {%- endif -%}
+      <h1>{{ section.settings.main_heading }}</h1>
+    </div>
+    <div class="hero__categories">
+      {%- for block in section.blocks -%}
+        <div class="hero__category">
+            <a href="{{ block.settings.link }}" id="block-{{ block.id }}-link" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+              {{ block.settings.title }} &raquo;
+            </a>
+          <div class="hero__category__image">
+            <a href="{{ block.settings.link }}" id="block-{{ block.id }}-image" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+              <img src="{{ block.settings.image | img_url: '453x200', crop: 'center' }}" alt="{{ block.settings.image.alt | escape }}" />
+            </a>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% stylesheet %}
+  .hero__main {
+    background: #EFEFEF;
+    position: relative;
+  }
+  .hero__main--split {
+    display: flex;
+  }
+  .hero__main--split .hero__main__item {
+    flex: 50%;
+  }
+  .hero__main__item {
+    position: relative;
+  }
+  .hero__main h1 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0; 
+    top: 50%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    text-shadow: 0px 0px 10px #444;
+    pointer-events: none;
+  }
+  .hero__main__item__image {
+    display: block;
+  }
+   .hero__main__item__heading {
+      position: absolute;
+      display: block;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: #FFF;
+      margin: 0;
+      bottom: 30px;
+      left: 50%; 
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%); 
+      transform: translate(-50%);
+      text-shadow: 0px 0px 10px #444;
+      width: 100%;
+   }
+  .hero__categories {
+    display: inline-grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .hero__category {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero__category__image {
+    background: #EFEFEF;
+  }
+  .hero__category a {
+    color: #30543c;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .hero__category a:hover {
+    color: #7db490;
+  }
+  .hero__main--text-red h1,
+  .hero__main--text-red .hero__main__item__heading {
+    color: red;
+  }
+  .hero__main--text-black h1,
+  .hero__main--text-black .hero__main__item__heading {
+    color: #000000;
+  }
+  @media only screen and (max-width: 900px) {
+    .hero__main {
+      min-height: auto;
+    }
+    .hero__main h1 {
+      font-size: 50px;
+    }
+    .hero__main a {
+      font-size: 25px;
+      bottom: 10px;
+    }
+    .hero__main--split.hero__main h1 {
+      font-size: 30px;
+    }
+    .hero__main--split.hero__main a {
+      font-size: 20px;
+    }
+    .hero__category a {
+      font-size: 20px;
+    }
+    .hero__category__image {
+      min-height: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .hero__main h1 {
+      font-size: 25px;
+    }
+    .hero__main a {
+      font-size: 20px;
+      bottom: 10px;
+    }
+    .hero__main--split.hero__main h1 {
+      font-size: 20px;
+    }
+    .hero__main--split.hero__main a {
+      font-size: 12px;
+    }
+    .hero__categories {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .hero__category {
+      margin-bottom: 0px;
+      min-height: auto;
+    }
+    .hero__category a {
+      font-size: 14px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+  {
+    "name": "Home Hero",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_heading",
+        "label": "Heading",
+        "default": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "main_category_heading",
+        "label": "Category heading",
+        "default": "Category"
+      },
+      
+      {
+        "type": "url",
+        "id": "main_category_link",
+        "label": "Category Link"
+      },
+      {
+        "type": "select",
+        "id": "text_colour",
+        "label": "Text colour",
+        "options": [
+          {
+            "value": "black",
+            "label": "Black"
+          },
+          {
+            "value": "white",
+            "label": "White"
+          },
+          {
+            "value": "red",
+            "label": "Red"
+          }
+        ],
+        "default": "black"
+      },
+      {
+        "type": "image_picker",
+        "id": "main_image",
+        "label": "Main Image",
+        "info": "2160 x 720px .jpg recommended"
+      },
+      {
+        "type": "checkbox",
+        "id": "split_view",
+        "label": "Split banner?",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "split_category_heading",
+        "label": "Split Category heading",
+        "default": "Heading"
+      },
+      {
+        "type": "url",
+        "id": "split_category_link",
+        "label": "Split Category Link"
+      },
+      {
+        "type": "image_picker",
+        "id": "split_image",
+        "label": "Split Main Image",
+        "info": "2160 x 720px .jpg recommended"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Category",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Category title"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "500 x 250px .jpg recommended"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "Image",
+        "name": "Home Hero",
+        "blocks": [
+          {
+          "type": "image"
+          },
+          {
+          "type": "image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}

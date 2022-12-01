@@ -1,0 +1,37 @@
+<section>
+  <div class="container">
+    <div class="empty-state">
+      {%- comment -%}
+      <p class="empty-state__heading heading h1">{{ '404.general.title' | t }}</p>
+      <p class="empty-state__description">{{ '404.general.content' | t }}</p>
+      {%- endcomment -%}
+      
+      <p class="empty-state__heading heading h1">Sorry, the page you are looking for doesn't exist.
+      <p class="empty-state__description">Please try the Search function at the top of the page or <a style="color: #7db490;" href="/pages/contact-us">get in touch</a> with our team if you need help.</p>
+
+      
+      {%- comment -%}
+      <form class="empty-state__quick-form" action="{{ routes.search_url }}" method="get">
+        <input type="hidden" name="type" value="product">
+
+        <div class="form__connected-item">
+          <div class="form__input-wrapper form__input-wrapper--labelled">
+            <input id="4O4-search" type="text" class="form__field form__field--text" name="q" autocomplete="off" autocorrect="off">
+            <label for="4O4-search" class="form__floating-label">{{ '404.general.search' | t }}</label>
+          </div>
+
+          <button type="submit" class="form__connection button button--primary" aria-label="{{ '404.general.search' | t }}">{% render 'icon', icon: 'search' %}</button>
+        </div>
+      </form>
+      {%- endcomment -%}
+
+      <a href="{{ routes.root_url }}" class="empty-state__link blogBtn link link--accented">Back to our homepage</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "404"
+}
+{% endschema %}

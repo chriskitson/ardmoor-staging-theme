@@ -1,0 +1,326 @@
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta name="google-site-verification" content="2RIZ_phdyoD7KD74Csnoa1BBP9DlzuCsljNB7lL-hB4" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.accent_color }}">
+    {% unless template contains "index" %}
+    <script>
+  window.sweet=window.sweet||{},window.sweet.q=sweet.q||[],
+  window.sweet.init=function(e){this.cid=e;},
+  window.sweet.track=function(){this.q.push(arguments)};var a=document.createElement("script"),
+  m=document.getElementsByTagName("script")[0];
+  a.async=1,a.src="https://track.sweetanalytics.com/sweet.min.js",m.parentNode.insertBefore(a,m);
+  sweet.init('AT-6304ca1d25203');
+  sweet.track('pageview', 1);
+</script>
+    {% endunless %}
+
+    {%- capture seo_page_title -%}
+      {%- if request.page_type == 'search' and search.terms != blank -%}
+        {{ search.terms | split: ' AND ' | last | split: 'product_type:' | last }} - {{ shop.name }}
+      {%- else -%}
+        {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+      {%- endif -%}
+    {%- endcapture -%}
+
+  <!-- Avada Size Chart Script -->
+ {% unless template contains "index" %} {% include 'avada-sc-setting' %} {% endunless %}
+  <!-- Avada Size Chart Script -->
+
+
+
+  <!-- Avada Size Chart Script -->
+ {% include 'avada-sc-setting' %}
+  <!-- /Avada Size Chart Script -->
+
+<title>{{- seo_page_title -}}</title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
+    {%- endif -%}
+    
+    <!-- Global site tag (gtag.js) - Google Analytics 4 -->
+    {% unless template contains "index" %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0W3V64KNT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []; 
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-N0W3V64KNT');
+    </script>
+    {% endunless %}
+
+    {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+    <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+    {% unless template contains "index" %}<link rel="preconnect" href="https://cdn.shopify.com">{% endunless %}
+    <link rel="preload" href="https://use.typekit.net/sgt1lrc.css" as="style">
+    {% assign boost_pfs_is_init = false %}    
+    {%- if request.page_type == 'collection' or request.page_type == 'search' -%}
+        {%- unless template contains 'boost-pfs-original' -%}
+        {% assign boost_pfs_is_init = true %}
+          {%- if request.page_type == 'collection' -%}
+        {% unless template contains "index" %}
+        <link rel="preconnect" href="https://services.mybcapps.com/bc-sf-filter/filter" />
+        <link rel="dns-prefetch" href="https://services.mybcapps.com/bc-sf-filter/filter" />
+        {% endunless %}
+        {%- else -%}
+        {% unless template contains "index" %}
+        <link rel="preconnect" href="https://services.mybcapps.com/bc-sf-filter/search" />
+        <link rel="dns-prefetch" href="https://services.mybcapps.com/bc-sf-filter/search" />
+        {% endunless %}
+        {%- endif -%}
+        {% unless template contains "index" %}
+        <link rel="preload" href="{{ 'boost-pfs-vendor.js' | asset_url }}" as="script">
+        <link rel="preload" href="{{ 'boost-pfs-core.js' | asset_url }}" as="script">
+        <link rel="preload" href="{{ 'boost-pfs-filter.js' | asset_url }}" as="script">
+        {% endunless %}
+        <link rel="preload" href="{{ 'boost-pfs-instant-search.js' | asset_url }}" as="script">
+        <link rel="preload" as="style" href="{{ 'boost-pfs-general.css' | asset_url }}">    
+        {%- endunless -%}
+    {%- endif -%}    
+    {%- unless boost_pfs_is_init -%}
+        <link rel="preload" href="{{ 'boost-pfs-core-instant-search.js' | asset_url }}" as="script">    
+        <link rel="preload" href="{{ 'boost-pfs-instant-search.js' | asset_url }}" as="script"> 
+        <link rel="preload" as="style" href="{{ 'boost-pfs-instant-search.css' | asset_url }}">    
+    {%- endunless -%}
+        <link rel="preload" as="style" href="{{ 'boost-pfs-custom.css' | asset_url }}">
+    {%- comment -%}
+    <link rel="preconnect" href="https://fonts.shopifycdn.com">
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+    <link rel="dns-prefetch" href="https://maps.googleapis.com">
+    <link rel="dns-prefetch" href="https://maps.gstatic.com">
+    {%- endcomment -%}
+    {% unless template contains "index" %}<link rel="dns-prefetch" href="https://ajax.googleapis.com">{% endunless %}
+
+    {% render 'social-meta-tags' %}
+    {% render 'css-variables' %}
+
+    {{ content_for_header }}
+
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+
+    {% unless product.tags contains 'product-review' %}
+     {% render 'microdata-schema' %}
+	{% endunless %}
+
+    <script>
+      // This allows to expose several variables to the global scope, to be used in scripts
+      window.theme = {
+        pageType: {{ request.page_type | json }},
+        cartCount: {{ cart.item_count | json }},
+        moneyFormat: {{ shop.money_format | json }},
+        moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
+        currencyCodeEnabled: {{ settings.currency_code_enabled | json }},
+        showDiscount: {{ settings.show_discount | json }},
+        discountMode: {{ settings.discount_mode | json }},
+        searchMode: {{ settings.search_mode | json }},
+        searchUnavailableProducts: {{ settings.search_unavailable_products | json }},
+        cartType: {{ settings.cart_type | json }}
+      };
+
+      window.routes = {
+        rootUrl: {{ routes.root_url | json }},
+        rootUrlWithoutSlash: {% if routes.root_url == '/' %}''{% else %}{{ routes.root_url | json }}{% endif %},
+        cartUrl: {{ routes.cart_url | json }},
+        cartAddUrl: {{ routes.cart_add_url | json }},
+        cartChangeUrl: {{ routes.cart_change_url | json }},
+        searchUrl: {{ routes.search_url | json }},
+        productRecommendationsUrl: {{ routes.product_recommendations_url | json }}
+      };
+
+      window.languages = {
+        productRegularPrice: {{ 'product.general.regular_price' | t | json }},
+        productSalePrice: {{ 'product.general.sale_price' | t | json }},
+        collectionOnSaleLabel: {{ 'collection.product.discount_html' | t | json }},
+        productFormUnavailable: {{ 'product.form.unavailable' | t | json }},
+        productFormAddToCart: {% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | json }}{% else %}{{ 'product.form.add_to_cart' | t | json }}{% endif %},
+        productFormSoldOut: {{ 'product.form.sold_out' | t | json }},
+        productAdded: {{ 'product.form.added' | t | json }},
+        productAddedShort: {{ 'product.form.added_short' | t | json }},
+        shippingEstimatorNoResults: {{ 'cart.shipping_estimator.no_results_title' | t | json }},
+        shippingEstimatorOneResult: {{ 'cart.shipping_estimator.one_result_title' | t | json }},
+        shippingEstimatorMultipleResults: {{ 'cart.shipping_estimator.multiple_results_title' | t | json }},
+        shippingEstimatorErrors: {{ 'cart.shipping_estimator.errors' | t | json }}
+      };
+
+      window.lazySizesConfig = {
+        loadHidden: false,
+        hFac: 0.8,
+        expFactor: 3,
+        customMedia: {
+          '--phone': '(max-width: 640px)',
+          '--tablet': '(min-width: 641px) and (max-width: 1023px)',
+          '--lap': '(min-width: 1024px)'
+        }
+      };
+
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script>
+
+    {%- if request.page_type == 'customers/addresses' -%}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
+      <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
+    {%- endif -%}
+
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+    {%- if request.page_type != 'cart' -%}
+      <script>
+        (function () {
+          window.onpageshow = function() {
+            // We force re-freshing the cart content onpageshow, as most browsers will serve a cache copy when hitting the
+            // back button, which cause staled data
+            document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+              bubbles: true,
+              detail: {scrollToTop: false}
+            }));
+          };
+        })();
+      </script>
+    {%- endif -%}
+    
+    <link rel="stylesheet" href="https://use.typekit.net/sgt1lrc.css">
+       
+    <!-- Start of Clerk.io E-commerce Personalisation tool - www.clerk.io -->
+      <script type="text/javascript">
+        (function(w,d){
+          var e=d.createElement('script');e.type='text/javascript';e.async=true;
+          e.src=(d.location.protocol=='https:'?'https':'http')+'://cdn.clerk.io/clerk.js';
+          var s=d.getElementsByTagName('script')[0];s.parentNode.insertBefore(e,s);
+          w.__clerk_q=w.__clerk_q||[];w.Clerk=w.Clerk||function(){w.__clerk_q.push(arguments)};
+        })(window,document);
+
+        Clerk('config', {
+          key: 'j4dlpbe7BEESGqmFQ3anEeKp6aXByOtj',
+          formatters: {
+            currency_converter: function(price) {
+              var converted_price = (price*Shopify.currency.rate);
+              return (converted_price).toString();
+            }
+          },
+          globals: {
+            currency_iso: "{{ cart.currency.iso_code }}",
+            currency_symbol: "{{ cart.currency.symbol }}"
+          }
+        });
+      </script>
+    <!-- End of Clerk.io E-commerce Personalisation tool - www.clerk.io -->
+     
+    <!-- Global site tag (gtag.js) - Google Ads: 996343260 -->
+    {% unless template contains "index" %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-996343260"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-996343260');
+    </script>
+    {% endunless %}
+    
+    <!-- Global site tag (gtag.js) - Google Ads: 300817047 -->
+    {% unless template contains "index" %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-300817047"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-300817047');
+    </script>
+    {% endunless %}
+
+    <!-- Bing tag -->
+    {% unless template contains "index" %}
+    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5118132"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+    {% endunless %}
+      
+    <!-- Pinterest verification -->
+    <meta name="p:domain_verify" content="7a38be56770e70243a7c95c857a52880"/>
+    
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+ <!--begin-boost-pfs-filter-css-->
+   {% unless template contains "index" %}{% render 'boost-pfs-style' %}{% endunless %}
+ <!--end-boost-pfs-filter-css-->
+    
+
+  
+  {% render 'qikify-apps' %}
+  {% unless template contains "index" %}
+  <script>
+  window.sweet=window.sweet||{},window.sweet.q=sweet.q||[],
+  window.sweet.init=function(e){this.cid=e;},
+  window.sweet.track=function(){this.q.push(arguments)};var a=document.createElement("script"),
+  m=document.getElementsByTagName("script")[0];
+  a.async=1,a.src="https://track.sweetanalytics.com/sweet.min.js",m.parentNode.insertBefore(a,m);
+  sweet.init('AT-6304ca1d25203');
+  sweet.track('pageview', 1);
+</script>
+  {% endunless %}
+  <style>
+    .tmenu_item--root > .tmenu_item_link {padding-top: 17px;padding-bottom: 17px;}
+  </style>
+  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+</head>
+
+  <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
+<script>window.KlarnaThemeGlobals={};{%case template.name%} {%when"product"%} {% if product.first_available_variant.price %}window.KlarnaThemeGlobals.data_purchase_amount = {{ product.first_available_variant.price }};{% endif %}window.KlarnaThemeGlobals.productVariants={{product.variants|json}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%when"cart"%} window.KlarnaThemeGlobals.data_purchase_amount={{cart.total_price}};window.KlarnaThemeGlobals.documentCopy=document.cloneNode(true);{%endcase%}</script>
+
+
+
+{% unless template contains "index" %}
+    
+ {% endunless %}
+
+    {%- comment -%}Common SVG definitions that we are re-using in several places{%- endcomment -%}
+    <svg class="visually-hidden">
+      <linearGradient id="rating-star-gradient-half">
+        <stop offset="50%" stop-color="var(--product-review-star-color)" />
+        <stop offset="50%" stop-color="rgba(var(--text-color-rgb), .4)" stop-opacity="0.4" />
+      </linearGradient>
+    </svg>
+
+    <a href="#main" class="visually-hidden skip-to-content">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    <span class="loading-bar"></span>
+
+    {%- unless request.page_type == 'cart' -%}
+      {%- comment -%}As required by Shopify rules, popup must be removed on cart page to remove distraction{%- endcomment -%}
+      {% section 'popups' %}
+    {%- endunless -%}
+    
+    {% section 'announcement-bar-multiple' %}
+          
+    {% section 'header' %}
+    {% section 'static-text-with-icons' %}
+    
+    <main id="main" role="main">
+      {{ content_for_layout }}
+    </main>
+          
+    {% section 'footer' %}
+
+    <ul hidden>
+      <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
+    </ul>
+    
+
+    
+ <!--begin-boost-pfs-js-->
+   {% unless template contains "index" %}{% render 'boost-pfs' %}{% endunless %}
+ <!--end-boost-pfs-js-->
+</body>
+</html>
