@@ -1,4 +1,4 @@
-<form method="post" action="{{ routes.cart_url }}" id="mini-cart" class="mini-cart" aria-hidden="true" novalidate="novalidate" data-item-count="{{ cart.item_count }}">
+<script class="cartFlagX"></script><form method="post" action="{{ routes.cart_url }}" id="mini-cart" class="mini-cart" aria-hidden="true" novalidate="novalidate" data-item-count="{{ cart.item_count }}">
   <input type="hidden" name="attributes[collection_products_per_page]" value="">
   <input type="hidden" name="attributes[collection_layout]" value="">
 
@@ -173,7 +173,7 @@
 
         <div class="mini-cart__recap-price-line">
           <span>{{ 'cart.general.total' | t }}</span>
-          <span>{{ cart.total_price | money }}</span>
+          <span><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span>
         </div>
 
         {%- comment -%}To calculate the total discount, we take both into account the Shopify Script (for Plus merchants), but we also add the compare at price{%- endcomment -%}
