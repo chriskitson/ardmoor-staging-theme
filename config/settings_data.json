@@ -202,7 +202,7 @@
           "mobile_logo_max_width": 100,
           "show_locale_selector": false,
           "show_country_selector": false,
-          "navigation_menu": "new-menu",
+          "navigation_menu": "main-menu",
           "navigation_mobile_menu": "",
           "desktop_navigation_layout": "inline",
           "desktop_navigation_open_trigger": "hover",
