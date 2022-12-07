@@ -45,7 +45,7 @@
     "show_color_swatch": true,
     "show_inventory_quantity": false,
     "low_inventory_threshold": 3,
-    "cart_type": "drawer",
+    "cart_type": "page",
     "cart_empty_button_link": "shopify:\/\/collections\/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": false,
@@ -296,7 +296,7 @@
             "settings": {
               "icon": "bi-delivery",
               "title": "Tracked & Signed For Delivery",
-              "content": "",
+              "content": "<p><\/p>",
               "link": "shopify:\/\/pages\/delivery"
             }
           },
@@ -305,7 +305,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Free UK Exchanges & Easy Returns",
-              "content": "",
+              "content": "<p><\/p>",
               "link": "shopify:\/\/pages\/returns"
             }
           },
@@ -314,7 +314,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Here To Help",
-              "content": "",
+              "content": "<p><\/p>",
               "link": "shopify:\/\/pages\/contact-us"
             }
           }
