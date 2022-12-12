@@ -12524,4 +12524,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 .announcement-bar__links {
   position: absolute;
   right: 0;
+  line-height: 42px;
+  padding-right: 10px;
 }
