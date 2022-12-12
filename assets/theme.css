@@ -12516,3 +12516,12 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
     display: none;
   }
 }
+
+.announcement-bar .container {
+  position: relative;
+}
+
+.announcement-bar__links {
+  position: absolute;
+  right: 0;
+}
