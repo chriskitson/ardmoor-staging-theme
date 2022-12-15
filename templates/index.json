@@ -8,7 +8,7 @@
           "settings": {
             "title": "Jackets",
             "link": "shopify:\/\/collections\/jackets",
-            "image": "shopify:\/\/shop_images\/Jackets_7da6d949-2fd9-4121-81ab-5f0144154618.jpg"
+            "image": "shopify:\/\/shop_images\/ArdMoor_Jackets.jpg"
           }
         },
         "template--15855945416895__6dd3c4f5-9172-45fd-8d1d-dae7d40bc690-16673766365f45f42e-1": {
@@ -16,7 +16,7 @@
           "settings": {
             "title": "Wellingtons",
             "link": "shopify:\/\/collections\/mens-wellington-boots",
-            "image": "shopify:\/\/shop_images\/ArdMoor_Wellingtons.jpg"
+            "image": "shopify:\/\/shop_images\/ArdMoor_Wellingtons_141bfc43-097c-4c07-bf39-09a2fa79d207.jpg"
           }
         },
         "96777f63-ff74-4019-be40-bc10e061830a": {
@@ -24,7 +24,7 @@
           "settings": {
             "title": "Boots",
             "link": "shopify:\/\/collections\/boots",
-            "image": "shopify:\/\/shop_images\/Wellingtons.jpg"
+            "image": "shopify:\/\/shop_images\/ArdMoor_Boots.jpg"
           }
         },
         "fe538804-7a5b-46f5-8adc-907124528c4b": {
@@ -40,15 +40,15 @@
           "settings": {
             "title": "Hoggs of Fife",
             "link": "shopify:\/\/collections\/hoggs-of-fife",
-            "image": "shopify:\/\/shop_images\/ArdMoor_Hoggs_of_Fife.jpg"
+            "image": "shopify:\/\/shop_images\/ArdMoor_Hoggs_of_Fife_f165b5fd-0c16-4346-b074-6675b8f24e6e.jpg"
           }
         },
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb": {
           "type": "image",
           "settings": {
-            "title": "Jack Pyke Offers",
+            "title": "Jack Pyke",
             "link": "shopify:\/\/collections\/sale",
-            "image": "shopify:\/\/shop_images\/Jack_Pyke.jpg"
+            "image": "shopify:\/\/shop_images\/Jack_Pyke_at_ArdMoor.jpg"
           }
         }
       },
