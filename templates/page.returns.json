@@ -4,9 +4,15 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "return-icons": {
+      "type": "return-icons",
+      "settings": {
+      }
     }
   },
   "order": [
+    "return-icons",
     "main"
   ]
 }
