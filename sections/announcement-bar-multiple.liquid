@@ -64,59 +64,57 @@
 
     <div class="announcement-bar">
       <div class="container">
-
-          <div class="announcement-bar__links">
-            <a href="/pages/returns">Returns</a>
-            <a href="/pages/contact-us">Contact</a>
-          </div>
-
         <div class="announcement-bar__inner splide">
-    <div class="splide__track">
-		<ul class="splide__list">
-          {%- if section.settings.text1 != blank -%}
-            <div class="splide__slide">
-              {%- if section.settings.link1 != blank -%}
-                <a href="{{ section.settings.link1 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text1 | escape }}</a>
-                {%- else -%}
-                  <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text1 | escape }}</p>
-              {%- endif -%}
-            </div>
-          {%- endif -%}
-          {%- if section.settings.text2 != blank -%}
-          <div class="splide__slide">
-              {%- if section.settings.link2 != blank -%}
-                <a href="{{ section.settings.link2 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text2 | escape }}</a>
-                {%- else -%}
-                  <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text2 | escape }}</p>
-              {%- endif -%}
-            </div>
-          {%- endif -%}
-          {%- if section.settings.text3 != blank -%}
-           <div class="splide__slide">
-              {%- if section.settings.link3 != blank -%}
-                <a href="{{ section.settings.link3 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text3 | escape }}</a>
-                {%- else -%}
-                  <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text3 | escape }}</p>
-              {%- endif -%}
-            </div>
-          {%- endif -%}
-          {%- if section.settings.text4 != blank -%}
-           <div class="splide__slide">
-              {%- if section.settings.link4 != blank -%}
-                <a href="{{ section.settings.link4 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</a>
-                {%- else -%}
-                  <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</p>
-              {%- endif -%}
-            </div>
-          {%- endif -%}
-          {%- if section.settings.show_newsletter -%}
-            <button type="button" class="announcement-bar__button hidden-phone" data-action="toggle-newsletter" aria-expanded="false" aria-controls="announcement-bar-newsletter">
-              {%- render 'icon', icon: 'newsletter' -%}
-              {{- section.settings.newsletter_button | escape -}}
-            </button>
-          {%- endif -%}
-        </ul>
-    </div>
+          <div class="splide__track">
+          <ul class="splide__list">
+                {%- if section.settings.text1 != blank -%}
+                  <div class="splide__slide">
+                    {%- if section.settings.link1 != blank -%}
+                      <a href="{{ section.settings.link1 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text1 | escape }}</a>
+                      {%- else -%}
+                        <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text1 | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+                {%- if section.settings.text2 != blank -%}
+                <div class="splide__slide">
+                    {%- if section.settings.link2 != blank -%}
+                      <a href="{{ section.settings.link2 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text2 | escape }}</a>
+                      {%- else -%}
+                        <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text2 | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+                {%- if section.settings.text3 != blank -%}
+                <div class="splide__slide">
+                    {%- if section.settings.link3 != blank -%}
+                      <a href="{{ section.settings.link3 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text3 | escape }}</a>
+                      {%- else -%}
+                        <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text3 | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+                {%- if section.settings.text4 != blank -%}
+                <div class="splide__slide">
+                    {%- if section.settings.link4 != blank -%}
+                      <a href="{{ section.settings.link4 }}" class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</a>
+                      {%- else -%}
+                        <p class="announcement-bar__content announcement-bar__content--{{ section.settings.text_position }}">{{ section.settings.text4 | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+                {%- if section.settings.show_newsletter -%}
+                  <button type="button" class="announcement-bar__button hidden-phone" data-action="toggle-newsletter" aria-expanded="false" aria-controls="announcement-bar-newsletter">
+                    {%- render 'icon', icon: 'newsletter' -%}
+                    {{- section.settings.newsletter_button | escape -}}
+                  </button>
+                {%- endif -%}
+              </ul>
+          </div>
+        </div>
+        <div class="announcement-bar__links">
+          <a href="/pages/returns">Returns</a>
+          <a href="/pages/contact-us">Contact</a>
         </div>
       </div>
     </div>
