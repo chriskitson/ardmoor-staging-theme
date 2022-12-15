@@ -61,11 +61,11 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "main_heading": "Shop In Stock Items",
+        "main_heading": "",
         "main_category_heading": "Shop Now",
         "main_category_link": "shopify:\/\/collections\/gifts",
         "text_colour": "white",
-        "main_image": "shopify:\/\/shop_images\/ArdMoor_Country_Gifts_3.jpg",
+        "main_image": "shopify:\/\/shop_images\/1_614b4610-9bc4-4233-9ca0-bff946e67b89.jpg",
         "split_view": false,
         "split_category_heading": "Shop Women's",
         "split_category_link": "shopify:\/\/collections\/womens",
