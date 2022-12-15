@@ -12541,7 +12541,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 }
 
 /* Mobile sticky add to cart */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
     .announcement-bar__links  {
       display: none;
     }
