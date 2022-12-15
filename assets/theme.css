@@ -12538,3 +12538,10 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 .announcement-bar__links a:hover {
   color: #7db490;
 }
+
+/* Mobile sticky add to cart */
+@media screen and (max-width: 640px) {
+    .announcement-bar__links  {
+      display: none;
+    }
+}
