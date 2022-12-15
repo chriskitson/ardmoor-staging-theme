@@ -38,9 +38,9 @@
         "65d392c4-4aea-4b4f-a127-7a6aef7ab122": {
           "type": "image",
           "settings": {
-            "title": "Hoggs of Fife Offers",
-            "link": "shopify:\/\/collections\/farming-baselayers",
-            "image": "shopify:\/\/shop_images\/1.jpg"
+            "title": "Hoggs of Fife",
+            "link": "shopify:\/\/collections\/hoggs-of-fife",
+            "image": "shopify:\/\/shop_images\/ArdMoor_Hoggs_of_Fife.jpg"
           }
         },
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb": {
@@ -48,7 +48,7 @@
           "settings": {
             "title": "Jack Pyke Offers",
             "link": "shopify:\/\/collections\/sale",
-            "image": "shopify:\/\/shop_images\/Save_up_to_50.jpg"
+            "image": "shopify:\/\/shop_images\/Jack_Pyke.jpg"
           }
         }
       },
