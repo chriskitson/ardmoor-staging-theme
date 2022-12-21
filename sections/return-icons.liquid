@@ -35,16 +35,12 @@
 </div>
 
 {% stylesheet %}
-  @media only screen and (max-width: 900px) {
-    .return-icons li {
-      width: 50%;
-    }
-  }
   .return-icons {
     display: flex;
     width: 100%;
     gap: 20px;
     margin-top: 35px;
+    flex-wrap: wrap;
   }
   .return-icons li {
     list-style: none;
@@ -52,6 +48,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media only screen and (max-width: 900px) {
+    .return-icons li {
+      width: 50%;
+    }
   }
   .return-icons li a {
     font-size: 1.1em;
