@@ -344,7 +344,7 @@
           "show_announcement": true,
           "speed": 800,
           "interval": 6000,
-          "background": "#970000",
+          "background": "#7db490",
           "text_color": "#ffffff",
           "text1": "Please double check the shipping time shown against your item for pre-Christmas Delivery",
           "link1": "",
