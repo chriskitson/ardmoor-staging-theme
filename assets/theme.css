@@ -12532,8 +12532,9 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 
 .announcement-bar__links a {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 20px;
+  font-family: neuzeit-grotesk,sans-serif;
 }
 
 .announcement-bar__links a:hover {
