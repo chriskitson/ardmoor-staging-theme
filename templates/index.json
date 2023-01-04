@@ -61,14 +61,15 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "main_heading": "Winter Essentials",
-        "main_category_heading": "Shop Now",
+        "main_heading": "",
+        "main_category_heading": "Shop Winter Essentials",
         "main_category_link": "shopify:\/\/collections\/country-clothing-clearance-offers",
         "text_colour": "white",
         "main_image": "shopify:\/\/shop_images\/8.jpg",
-        "split_view": false,
+        "split_view": true,
         "split_category_heading": "Shop Clearance",
-        "split_category_link": "shopify:\/\/collections\/womens"
+        "split_category_link": "shopify:\/\/collections\/womens",
+        "split_image": "shopify:\/\/shop_images\/10.jpg"
       }
     },
     "slideshow": {
