@@ -62,11 +62,11 @@
       ],
       "settings": {
         "main_heading": "",
-        "main_category_heading": "Get Up to 50% OFF",
+        "main_category_heading": "Shop Winter Essentials",
         "main_category_link": "shopify:\/\/collections\/country-clothing-clearance-offers",
         "text_colour": "white",
-        "main_image": "shopify:\/\/shop_images\/2_570d6eda-5c72-4f15-80e2-0ce7669f9cd8.jpg",
-        "split_view": false,
+        "main_image": "shopify:\/\/shop_images\/Winter_Esssentials.jpg",
+        "split_view": true,
         "split_category_heading": "Shop Women's",
         "split_category_link": "shopify:\/\/collections\/womens",
         "split_image": "shopify:\/\/shop_images\/ArdMoor_Womens_Clothing_and_Footwear.jpg"
