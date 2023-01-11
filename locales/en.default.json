@@ -498,7 +498,7 @@
       },
       "contact": {
         "phone_tooltip": "Overseas orders can't be sent without this. For UK orders we may use this to contact you.",
-        "optional_phone_label": "Phone (Overseas orders can't be sent without this. For UK orders we may use this to contact you)"
+        "optional_phone_label": "Phone (Required for international orders)"
       },
       "delivery_options": {
         "shipping_address": "Delivery Address",
