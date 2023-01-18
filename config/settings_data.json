@@ -386,7 +386,7 @@
       },
       "7681353112847212978": {
         "type": "shopify:\/\/apps\/BolideaiAppProduction\/blocks\/upsell_cross_sell-embed\/be916d2f-a9b6-4f13-a881-f71af667d5ea",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
