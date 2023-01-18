@@ -377,6 +377,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "8045700213899817577": {
+        "type": "shopify:\/\/apps\/BolideaiAppProduction\/blocks\/free_shipping_bar-embed\/be916d2f-a9b6-4f13-a881-f71af667d5ea",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
