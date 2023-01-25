@@ -61,15 +61,15 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "main_heading": "Beat the Chill",
-        "main_category_heading": "Shop Winter Essentials",
+        "main_heading": "",
+        "main_category_heading": "Shop Smocks",
         "main_category_link": "shopify:\/\/collections\/country-clothing-clearance-offers",
         "text_colour": "white",
-        "main_image": "shopify:\/\/shop_images\/3_16d1382c-d840-43fa-8ec6-ed87bdbc7ef2.jpg",
+        "main_image": "shopify:\/\/shop_images\/Ridgeline_Smocks.jpg",
         "split_view": true,
         "split_category_heading": "Shop Clearance",
         "split_category_link": "shopify:\/\/collections\/womens",
-        "split_image": "shopify:\/\/shop_images\/10.jpg"
+        "split_image": "shopify:\/\/shop_images\/Shooting_Clearance_Sale_3_6507d84b-ee32-45aa-b756-00f975b2fa7b.jpg"
       }
     },
     "slideshow": {
