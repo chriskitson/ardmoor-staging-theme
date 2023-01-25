@@ -61,12 +61,12 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "main_heading": "Shooting End of Season Sale",
-        "main_category_heading": "Shop Smocks",
+        "main_heading": "",
+        "main_category_heading": "Shop Shooting Clearance Sale",
         "main_category_link": "shopify:\/\/collections\/shooting-smocks",
-        "text_colour": "white",
-        "main_image": "shopify:\/\/shop_images\/Ridgeline_Smocks.jpg",
-        "split_view": true,
+        "text_colour": "red",
+        "main_image": "shopify:\/\/shop_images\/Shooting_Clearance_Sale_1.jpg",
+        "split_view": false,
         "split_category_heading": "Shop Clearance",
         "split_category_link": "shopify:\/\/collections\/womens",
         "split_image": "shopify:\/\/shop_images\/Shooting_Clearance_Sale_2.jpg"
