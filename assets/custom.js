@@ -59,5 +59,17 @@ jQuery(function() {
 
 // product review tabs
 jQuery('.trustpilot-link').on('click', function(e) {
-  console.log('yes it is working!', e);
+
+  event.preventDefault();
+  event.stopImmediatePropagation();
+  var $el = $('#product-tp-reviews');
+  jQuery('.product-block-list__tabs_navigation a.selected').toggleClass('selected', false);
+  jQuery('.product-block-list__tab').toggle(false);
+  $el.addClass('selected');
+  jQuery($el.attr('href')).toggle(true);
+
+
+
+
+  // console.log('yes it is working!', e);
 });
