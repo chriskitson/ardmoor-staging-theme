@@ -56,3 +56,8 @@ jQuery(function() {
       window.scrollTo(0, $('#product-description').position().top);
     });
 });
+
+// product review tabs
+jQuery('body').on('click', '#tp-widget-wrapper', function() {
+  console.log('yes it is working!');
+});
