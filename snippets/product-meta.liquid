@@ -202,7 +202,11 @@
 <hr class="card__separator">
 
 <script>
-  $(document).on('click', '#tp-widget-wrapper', function() {
-    console.log('yes it is working!');
+
+
+  $(function() {
+    $('body').on('click', '#tp-widget-wrapper', function() {
+      console.log('yes it is working!');
+    });
   });
 </script>
