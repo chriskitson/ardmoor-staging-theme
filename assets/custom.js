@@ -58,6 +58,6 @@ jQuery(function() {
 });
 
 // product review tabs
-jQuery('.trustpilot-widget', function() {
+jQuery('.trustpilot-widget').on('click', function() {
   console.log('yes it is working!');
 });
