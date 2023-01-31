@@ -49,7 +49,7 @@
             {{- variant.sku -}}{%- if forloop.last == false -%},{%- endif -%}
           {%- endfor -%}
         {%- endcapture -%}
-        <a href="#" class="trustpilot-widget-link">
+        <div class="trustpilot-container">
           <div
             class="trustpilot-widget"
             data-locale="en-GB"
@@ -68,7 +68,7 @@
               target="_blank"
               rel="noopener">Trustpilot</a>
           </div>
-        </a>
+        </div>
         <!-- End TrustBox widget -->
       {% endif %}
     {% endfor %}
