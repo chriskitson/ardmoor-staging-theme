@@ -228,6 +228,20 @@
     <p class="variant_availability_detail" style=""></p>
   </div>
 
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- comment -%}
+      --------------------------------------------------------------------------------------
+      PRODUCT BULLETS
+      --------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'product_bullets' -%}
+
+      Hello world reviews!
+    {%- endcase -%}
+  {%- endfor -%}
+
+
   {% capture 'variant_availability' %}
   {% for variant in product.variants %}
   {{variant.id}}:{{ variant.metafields.variant.availability | json }}{% unless forloop.last %},{% endunless %}
