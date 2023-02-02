@@ -515,7 +515,7 @@
 <script type="text/javascript">
   var _learnq = _learnq || [];
   var item = {
-                              Name: {{ product.title | json }},
+                                              Name: {{ product.title | json }},
   ProductID: {{ product.id | json }},
   Categories: {{ product.collections | map: 'title' | json }},
   ImageURL: "https:{{ product.featured_image.src | img_url: 'grande' }}",
@@ -525,24 +525,24 @@
   CompareAtPrice: {{ product.compare_at_price_max | money | json }}
   };
   _learnq.push(['track', 'Viewed Product', item]);
-                            _learnq.push(['trackViewedItem', {
-                              Title: item.Name,
-                              ItemId: item.ProductID,
-                              Categories: item.Categories,
-                              ImageUrl: item.ImageURL,
-                              Url: item.URL,
-                              Metadata: {
-                                Brand: item.Brand,
-                                Price: item.Price,
-                                CompareAtPrice: item.CompareAtPrice
-                              }
-                            }]);</script>
+                                            _learnq.push(['trackViewedItem', {
+                                              Title: item.Name,
+                                              ItemId: item.ProductID,
+                                              Categories: item.Categories,
+                                              ImageUrl: item.ImageURL,
+                                              Url: item.URL,
+                                              Metadata: {
+                                                Brand: item.Brand,
+                                                Price: item.Price,
+                                                CompareAtPrice: item.CompareAtPrice
+                                              }
+                                            }]);</script>
 
 <script type="text/javascript">
   var _learnq = _learnq || [];
   document.getElementById("AddToCart").addEventListener('click',function (){
-                           		_learnq.push(['track', 'Added to Cart', item]);
-                          	});</script>
+                                           		_learnq.push(['track', 'Added to Cart', item]);
+                                          	});</script>
 
 
 {% schema %}
@@ -838,18 +838,113 @@
         "settings": [
           {
             "type": "text",
-            "id": "bullet_1_title",
+            "id": "bullet_1_text",
             "label": "Bullet 1 Text",
             "default": "Example bullet text here"
-          }, {
+          },
+          {
             "type": "url",
             "id": "bullet_1_link",
             "label": "Bullet 2 Link"
-          }, {
+          },
+          {
             "type": "select",
             "id": "bullet_1_icon",
             "label": "Bullet 1 Icon",
-            "info": "Select a icon from the list below:",
+            "info": "Select a icon from the list",
+            "options": [
+              {
+                "value": "example1",
+                "label": "Example 1"
+              }, {
+                "value": "example2",
+                "label": "Example 2"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "bullet_2_text",
+            "label": "Bullet 2 Text",
+            "default": "Example bullet text here"
+          }, {
+            "type": "url",
+            "id": "bullet_2_link",
+            "label": "Bullet 2 Link"
+          }, {
+            "type": "select",
+            "id": "bullet_2_icon",
+            "label": "Bullet 2 Icon",
+            "info": "Select a icon from the list",
+            "options": [
+              {
+                "value": "example1",
+                "label": "Example 1"
+              }, {
+                "value": "example2",
+                "label": "Example 2"
+              }
+            ]
+          }, {
+            "type": "text",
+            "id": "bullet_3_text",
+            "label": "Bullet 3 Text",
+            "default": "Example bullet text here"
+          }, {
+            "type": "url",
+            "id": "bullet_3_link",
+            "label": "Bullet 3 Link"
+          }, {
+            "type": "select",
+            "id": "bullet_3_icon",
+            "label": "Bullet 3 Icon",
+            "info": "Select a icon from the list",
+            "options": [
+              {
+                "value": "example1",
+                "label": "Example 1"
+              }, {
+                "value": "example2",
+                "label": "Example 2"
+              }
+            ]
+          }, {
+            "type": "text",
+            "id": "bullet_4_text",
+            "label": "Bullet 4 Text",
+            "default": "Example bullet text here"
+          }, {
+            "type": "url",
+            "id": "bullet_4_link",
+            "label": "Bullet 4 Link"
+          }, {
+            "type": "select",
+            "id": "bullet_4_icon",
+            "label": "Bullet 4 Icon",
+            "info": "Select a icon from the list",
+            "options": [
+              {
+                "value": "example1",
+                "label": "Example 1"
+              }, {
+                "value": "example2",
+                "label": "Example 2"
+              }
+            ]
+          }, {
+            "type": "text",
+            "id": "bullet_5_text",
+            "label": "Bullet 5 Text",
+            "default": "Example bullet text here"
+          }, {
+            "type": "url",
+            "id": "bullet_5_link",
+            "label": "Bullet 5 Link"
+          }, {
+            "type": "select",
+            "id": "bullet_5_icon",
+            "label": "Bullet 5 Icon",
+            "info": "Select a icon from the list",
             "options": [
               {
                 "value": "example1",
