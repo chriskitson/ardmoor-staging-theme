@@ -29,8 +29,19 @@
       <div class="product-bullets">
         <ul>
         {%- if block.settings.bullet_1_text != blank -%}
-        <li>{{ block.settings.bullet_1_text }}</li>
-          {%- endif -%}
+        <li>
+            {%- if block.settings.bullet_1_link != blank -%}
+                <a href="{{ block.settings.bullet_1_link }">
+            {%- endif -%}
+            {%- if block.settings.bullet_1_icon != blank -%}
+               i
+            {%- endif -%}
+            {{ block.settings.bullet_1_text }}
+            {%- if block.settings.bullet_1_link != blank -%}
+              </a>
+           {%- endif -%}
+            </li>
+        {%- endif -%}
         </ul>
       </div>
     {%- endcase -%}
