@@ -17,6 +17,25 @@
     <a href="mailto:{{ shop.email }}" class="button button--primary">{{ 'product.form.contact_us' | t }}</a>
   {%- endif -%}
 
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- comment -%}
+      --------------------------------------------------------------------------------------
+      PRODUCT BULLETS
+      --------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'product_bullets' -%}
+
+      <div class="product-bullets">
+        <ul>
+        {%- if block.settings.bullet_1_text != blank -%}
+        <li>{{ block.settings.bullet_1_text }}</li>
+          {%- endif -%}
+        </ul>
+      </div>
+    {%- endcase -%}
+  {%- endfor -%}
+
   <div class="shopify-payment-trust-options">
       <div class="payment-list">
   
@@ -222,19 +241,6 @@
       }
     </style>
   {%- endif -%}
-
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- comment -%}
-      --------------------------------------------------------------------------------------
-      PRODUCT BULLETS
-      --------------------------------------------------------------------------------------
-      {%- endcomment -%}
-      {%- when 'product_bullets' -%}
-
-      Hello world reviews!
-    {%- endcase -%}
-  {%- endfor -%}
 
   <div class="variant-message"> 
     <p class="variant_availability" style=""></p>
