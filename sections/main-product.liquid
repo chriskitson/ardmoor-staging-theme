@@ -472,6 +472,15 @@
                 </div>
               {%- endif -%}
             {%- endcase -%}
+            {%- comment -%}
+            --------------------------------------------------------------------------------------
+            PRODUCT BULLETS
+            --------------------------------------------------------------------------------------
+            {%- endcomment -%}
+            {%- when 'product_bullets' -%}
+            Hello world!
+
+
           {%- endfor -%}
         </div>
       </div>
@@ -515,7 +524,7 @@
 <script type="text/javascript">
   var _learnq = _learnq || [];
   var item = {
-                                              Name: {{ product.title | json }},
+                                                          Name: {{ product.title | json }},
   ProductID: {{ product.id | json }},
   Categories: {{ product.collections | map: 'title' | json }},
   ImageURL: "https:{{ product.featured_image.src | img_url: 'grande' }}",
@@ -525,24 +534,24 @@
   CompareAtPrice: {{ product.compare_at_price_max | money | json }}
   };
   _learnq.push(['track', 'Viewed Product', item]);
-                                            _learnq.push(['trackViewedItem', {
-                                              Title: item.Name,
-                                              ItemId: item.ProductID,
-                                              Categories: item.Categories,
-                                              ImageUrl: item.ImageURL,
-                                              Url: item.URL,
-                                              Metadata: {
-                                                Brand: item.Brand,
-                                                Price: item.Price,
-                                                CompareAtPrice: item.CompareAtPrice
-                                              }
-                                            }]);</script>
+                                                        _learnq.push(['trackViewedItem', {
+                                                          Title: item.Name,
+                                                          ItemId: item.ProductID,
+                                                          Categories: item.Categories,
+                                                          ImageUrl: item.ImageURL,
+                                                          Url: item.URL,
+                                                          Metadata: {
+                                                            Brand: item.Brand,
+                                                            Price: item.Price,
+                                                            CompareAtPrice: item.CompareAtPrice
+                                                          }
+                                                        }]);</script>
 
 <script type="text/javascript">
   var _learnq = _learnq || [];
   document.getElementById("AddToCart").addEventListener('click',function (){
-                                           		_learnq.push(['track', 'Added to Cart', item]);
-                                          	});</script>
+                                                       		_learnq.push(['track', 'Added to Cart', item]);
+                                                      	});</script>
 
 
 {% schema %}
