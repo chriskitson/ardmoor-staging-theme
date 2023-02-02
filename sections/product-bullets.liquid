@@ -1,0 +1,75 @@
+<section data-section-id="{{ section.id }}" data-section-settings='{{ section_settings }}' class="product-bullets">
+    <ul>
+        {%- for block in section.blocks -%}
+            <li class="product-bullets__item">
+                {{ block.settings.title }}
+            </li>
+        {%- endfor -%}
+    </ul>
+</section>
+
+{% stylesheet %}
+ .product-bullets {
+    display: block;
+    width: 100%;
+ }
+{% endstylesheet %}
+
+{% schema %}
+  {
+    "name": "Product Bullets",
+    "max_blocks": 6,
+    "blocks": [
+      {
+        "type": "bullet",
+        "name": "Category",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Text",
+            "default": "Example bullet text here"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "Icon",
+            "info": "Select a icon from the list below:",
+            "options": [
+                {
+                "value": "example1",
+                "label": "Example 1"
+                },
+                {
+                "value": "example2",
+                "label": "Example 2"
+                }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "Text",
+        "name": "Product Bullets",
+        "blocks": [
+          {
+          "type": "bullet"
+          },
+          {
+          "type": "bullet"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}
