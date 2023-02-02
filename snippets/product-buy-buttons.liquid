@@ -223,11 +223,6 @@
     </style>
   {%- endif -%}
 
-  <div class="variant-message"> 
-    <p class="variant_availability" style=""></p>
-    <p class="variant_availability_detail" style=""></p>
-  </div>
-
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- comment -%}
@@ -240,6 +235,11 @@
       Hello world reviews!
     {%- endcase -%}
   {%- endfor -%}
+
+  <div class="variant-message"> 
+    <p class="variant_availability" style=""></p>
+    <p class="variant_availability_detail" style=""></p>
+  </div>
 
 
   {% capture 'variant_availability' %}
