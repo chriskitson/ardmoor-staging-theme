@@ -66,26 +66,6 @@
             "show_payment_icons": true,
             "custom_security_badge_width": 200
           }
-        },
-        "e3d63739-898e-4121-a965-4efae21b448a": {
-          "type": "product_bullets",
-          "settings": {
-            "bullet_1_text": "Example bullet text here",
-            "bullet_1_link": "",
-            "bullet_1_icon": "example1",
-            "bullet_2_text": "Example bullet text here",
-            "bullet_2_link": "",
-            "bullet_2_icon": "example1",
-            "bullet_3_text": "Example bullet text here",
-            "bullet_3_link": "",
-            "bullet_3_icon": "example1",
-            "bullet_4_text": "Example bullet text here",
-            "bullet_4_link": "",
-            "bullet_4_icon": "example1",
-            "bullet_5_text": "Example bullet text here",
-            "bullet_5_link": "",
-            "bullet_5_icon": "example1"
-          }
         }
       },
       "block_order": [
@@ -96,8 +76,7 @@
         "ff1b7cb4-02e6-4fad-8eda-fb1854e61a96",
         "45dcb553-2581-4293-86f6-3d2bcfa6ff2c",
         "82e44bf0-0f32-49d5-b3d3-034c460db1e8",
-        "4e6a5960-e2e9-4075-92ed-5694cfdbb7b4",
-        "e3d63739-898e-4121-a965-4efae21b448a"
+        "4e6a5960-e2e9-4075-92ed-5694cfdbb7b4"
       ],
       "settings": {
         "image_size": "medium",
