@@ -130,6 +130,7 @@
                                 <span class="line-item__title text--strong">{{ line_item.title }}</span>
                               {%- else -%}
                                 <a href="{{ line_item.url }}" class="line-item__title link text--strong">{{ line_item.title }}</a>
+<span class="tdf-cart-item-t"></span>
                               {%- endif -%}
 
                               {%- if line_item.selling_plan_allocation -%}
@@ -150,7 +151,7 @@
                                 </ul>
                               {%- endunless -%}
 
-                              <div class="line-item__price-list">
+                              <div class="line-item__price-list tdf-cart-item-p-p">
                                 {%- if line_item.original_price > line_item.final_price -%}
                                   {%- if line_item.final_price == 0 -%}
                                     <span class="line-item__price line-item__price--highlight">{{ 'cart.general.free' | t }}</span>
@@ -248,7 +249,7 @@
                           <a href="{{ routes.cart_change_url }}?quantity=0&line={{ forloop.index }}" data-action="decrease-quantity" data-quantity="0" data-line="{{ forloop.index }}" class="line-item__quantity-remove link">{{ 'cart.items.remove' | t }}</a>
                         </td>
 
-                        <td class="line-item__line-price table__cell--right hidden-phone">
+                        <td class="line-item__line-price table__cell--right hidden-phone tdf-cart-item-lp-p">
                           {%- if line_item.final_line_price == 0 -%}
                             {{- 'cart.general.free' | t -}}
                           {%- else -%}
