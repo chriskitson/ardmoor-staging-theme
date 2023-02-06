@@ -61,13 +61,13 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "main_heading": "",
-        "main_category_heading": "Shop Men's Jackets",
+        "main_heading": "Shop Jackets",
+        "main_category_heading": "Shop Men's",
         "main_category_link": "shopify:\/\/collections\/shooting-clothing-clearance-offers",
         "text_colour": "white",
         "main_image": "shopify:\/\/shop_images\/Ridgeline_Monsoon_Elite.jpg",
         "split_view": true,
-        "split_category_heading": "Shop Women's Jackets",
+        "split_category_heading": "Shop Women's",
         "split_category_link": "shopify:\/\/collections\/womens-jackets-coats",
         "split_image": "shopify:\/\/shop_images\/Ridgeline_Frontier_Women_s_Jacket.jpg"
       }
