@@ -6,25 +6,25 @@
         "template--15855945416895__6dd3c4f5-9172-45fd-8d1d-dae7d40bc690-16673766365f45f42e-0": {
           "type": "image",
           "settings": {
-            "title": "Jackets",
-            "link": "shopify:\/\/collections\/jackets",
-            "image": "shopify:\/\/shop_images\/ArdMoor_Outdoor_Jackets.jpg"
+            "title": "Trousers",
+            "link": "shopify:\/\/collections\/trousers-breeks-and-leggings",
+            "image": "shopify:\/\/shop_images\/ArdMoor_Waterproof_Trousers.jpg"
           }
         },
         "template--15855945416895__6dd3c4f5-9172-45fd-8d1d-dae7d40bc690-16673766365f45f42e-1": {
           "type": "image",
           "settings": {
-            "title": "Trousers",
-            "link": "shopify:\/\/collections\/mens-wellington-boots",
-            "image": "shopify:\/\/shop_images\/ArdMoor_Waterproof_Trousers.jpg"
+            "title": "Boots",
+            "link": "shopify:\/\/collections\/country-boots",
+            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_3.jpg"
           }
         },
         "96777f63-ff74-4019-be40-bc10e061830a": {
           "type": "image",
           "settings": {
-            "title": "Boots",
+            "title": "Wellingtons",
             "link": "shopify:\/\/collections\/boots",
-            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_2.jpg"
+            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_Wellington_Boots.jpg"
           }
         },
         "fe538804-7a5b-46f5-8adc-907124528c4b": {
