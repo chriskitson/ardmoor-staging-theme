@@ -67,9 +67,9 @@
         "text_colour": "white",
         "main_image": "shopify:\/\/shop_images\/Ridgeline_Frontier_Women_s_Jacket.jpg",
         "split_view": true,
-        "split_category_heading": "Shop Men's Jackets",
-        "split_category_link": "shopify:\/\/collections\/womens",
-        "split_image": "shopify:\/\/shop_images\/Ridgeline_Smocks_a8f2ecda-1d23-4605-9f9d-efb0e732a17a.jpg"
+        "split_category_heading": "Shop Women's Jackets",
+        "split_category_link": "shopify:\/\/collections\/womens-jackets-coats",
+        "split_image": "shopify:\/\/shop_images\/Ridgeline_Frontier_Women_s_Jacket.jpg"
       }
     },
     "slideshow": {
