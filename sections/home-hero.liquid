@@ -186,34 +186,27 @@
       {
         "type": "text",
         "id": "main_category_heading",
-        "label": "Category heading",
+        "label": "Category heading text",
         "default": "Category"
       },
-      
+      {
+        "type": "number",
+        "id": "main_category_heading_size",
+        "label": "Category heading size",
+        "info": "Pixel size",
+        "default": 60
+      },
       {
         "type": "url",
         "id": "main_category_link",
         "label": "Category Link"
       },
       {
-        "type": "select",
+        "type": "text",
         "id": "text_colour",
         "label": "Text colour",
-        "options": [
-          {
-            "value": "black",
-            "label": "Black"
-          },
-          {
-            "value": "white",
-            "label": "White"
-          },
-          {
-            "value": "red",
-            "label": "Red"
-          }
-        ],
-        "default": "black"
+        "info": "Colour hex code e.g. #000000",
+        "default": "#000000"
       },
       {
         "type": "image_picker",
@@ -230,8 +223,15 @@
       {
         "type": "text",
         "id": "split_category_heading",
-        "label": "Split Category heading",
+        "label": "Split Category heading text" ,
         "default": "Heading"
+      },
+            {
+        "type": "number",
+        "id": "split_category_heading_size",
+        "label": "Split Category heading size",
+        "info": "Pixel size",
+        "default": 30
       },
       {
         "type": "url",
