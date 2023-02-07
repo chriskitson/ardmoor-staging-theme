@@ -61,11 +61,12 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
+        "text_colour": "red",
         "main_heading": "Shop Jackets",
+        "main_heading_size": 60,
         "main_category_heading": "Shop Men's",
         "main_category_heading_size": 60,
         "main_category_link": "shopify:\/\/collections\/shooting-clothing-clearance-offers",
-        "text_colour": "#FFFFFF",
         "main_image": "shopify:\/\/shop_images\/Homepage_Split_Banner_-_Farmer_Will.jpg",
         "split_view": true,
         "split_category_heading": "Shop Women's",
