@@ -19,7 +19,7 @@
           <a href="{{ section.settings.split_category_link }}" class="hero__main__item__heading">{{ section.settings.split_category_heading }} &raquo;</a>
         </div>
       {%- endif -%}
-      <h1>{{ section.settings.main_heading }}</h1>
+      <h1 style="color:{{ section.settings.text_colour }};">{{ section.settings.main_heading }}</h1>
     </div>
     <div class="hero__categories">
       {%- for block in section.blocks -%}
