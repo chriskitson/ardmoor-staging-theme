@@ -71,7 +71,7 @@
           "type": "product_bullets",
           "settings": {
             "bullet_1_text": "FREE UK shipping on all orders over £50",
-            "bullet_1_link": "",
+            "bullet_1_link": "shopify:\/\/pages\/delivery",
             "bullet_1_icon": "truck",
             "bullet_2_text": "Only £3.50 for UK shipping on orders under £50",
             "bullet_2_link": "",
