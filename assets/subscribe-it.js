@@ -2208,7 +2208,7 @@ function deferBisProductPageButton (callback) {
                 "countdown_timer_products": "[]"
       },
       "main_button": {
-            "main_caption": "Notify When Available",
+            "main_caption": "Notify When Available test",
             "main_css_classes": "",
             "main_button_width": "",
             "main_button_height": "",
