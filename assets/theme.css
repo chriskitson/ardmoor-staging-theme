@@ -12569,7 +12569,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   text-transform: capitalize;
 }
 
-.product-form__add-button.button button--disabled {
+.product-form__add-button.button--disabled {
   display: none;
 }
 
