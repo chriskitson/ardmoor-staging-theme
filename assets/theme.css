@@ -12564,3 +12564,10 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
 }
+
+@media (min-width: 1024px) {
+  #SI_trigger {
+      margin-bottom: 47px;
+      font-size: 24px;
+  }
+}
