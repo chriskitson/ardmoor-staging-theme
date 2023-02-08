@@ -12547,3 +12547,18 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
       display: none;
     }
 }
+
+/* Out of stock notifications */
+#SI_trigger {
+  font-family: neuzeit-grotesk,sans-serif;
+  position: relative;
+  display: inline-block;
+  padding: 0 30px;
+  line-height: 48px;
+  border-radius: 99px;
+  text-align: center;
+  font-weight: var(--text-font-bolder-weight);
+  font-size: var(--base-text-font-size);
+  cursor: pointer;
+  transition: background .25s ease-in-out,color .25s ease-in-out,box-shadow .25s ease-in-out;
+}
