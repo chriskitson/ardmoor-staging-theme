@@ -12561,5 +12561,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   font-size: var(--base-text-font-size);
   cursor: pointer;
   transition: background .25s ease-in-out,color .25s ease-in-out,box-shadow .25s ease-in-out;
-  background: red;
+  background: var(--primary-button-background);
+  color: var(--primary-button-text-color);
 }
