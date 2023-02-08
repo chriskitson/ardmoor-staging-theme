@@ -2142,7 +2142,7 @@ function deferBisProductPageButton (callback) {
                 "empty_email_phone_validation_message": "Please provide email or phone number.",
                  "terms_and_conditions_text": "I accept the terms and conditions"
       },
-        "form_display_type": "POPUP",
+        "form_display_type": "INLINE",
         "madeby_link_visible": false,
         "hide_for_product_tag": "notify-it-hidden",
         "hide_for_collections": "",
