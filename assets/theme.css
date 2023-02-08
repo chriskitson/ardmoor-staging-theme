@@ -12564,7 +12564,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
   flex: none;
-  width: 60% !important;
+  width: 100%;
   margin: 9px;
   text-transform: capitalize;
 }
@@ -12577,5 +12577,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   #SI_trigger {
       font-size: 24px;
       margin-bottom: 20px;
+      width: 60% !important;
   }
 }
