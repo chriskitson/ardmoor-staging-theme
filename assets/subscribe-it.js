@@ -2152,7 +2152,7 @@ function deferBisProductPageButton (callback) {
         "only_sms_enabled": false,
         "customer_name_enabled": false,
         "show_notify_me_button_on_collection_page": false,
-        "show_sms_first": false,
+        "show_sms_first": true,
         "push_owl_enabled" : false,
         "show_fb" : false,
         "fb_page_id" : "",
