@@ -12576,5 +12576,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 @media (min-width: 1024px) {
   #SI_trigger {
       font-size: 24px;
+      margin-bottom: 20px;
   }
 }
