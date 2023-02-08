@@ -12564,7 +12564,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
   flex: none;
-  width: calc(50% - 18px);
+  width: calc(50% - 18px) !important;
   margin: 9px;
   text-transform: capitalize;
 }
