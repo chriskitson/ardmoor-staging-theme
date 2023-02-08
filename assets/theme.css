@@ -12564,9 +12564,13 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   background: var(--primary-button-background);
   color: var(--primary-button-text-color);
   flex: none;
-  width: calc(50% - 18px) !important;
+  width: 60% !important;
   margin: 9px;
   text-transform: capitalize;
+}
+
+.product-form__add-button.button button--disabled {
+  display: none;
 }
 
 @media (min-width: 1024px) {
