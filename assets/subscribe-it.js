@@ -66,6 +66,16 @@ function deferBisProductPageButton (callback) {
   }
 }
 
+function getRandomSubscribeAPIPath() {
+  const apiGatewayPaths=[]
+  //apiGatewayPaths.push('xsy6rdr4zb') //Commented because too many messages pending in this SQS queue
+  apiGatewayPaths.push('pw4ndd3ije')
+  apiGatewayPaths.push('056wq1p6oa')
+  apiGatewayPaths.push('obx6oifedg')
+  apiGatewayPaths.push('seknvpr88e')
+
+  return apiGatewayPaths[Math.floor(Math.random()*apiGatewayPaths.length)]
+}
 
 (function () {
     var popupFormTemplate = `<!doctype html><!--[if lt IE 7]>
@@ -2113,7 +2123,7 @@ function deferBisProductPageButton (callback) {
         .call(this);
 
     SI.Config = {
-      "app_hostname": "xsy6rdr4zb.execute-api.us-west-1.amazonaws.com",
+      "app_hostname": getRandomSubscribeAPIPath()+".execute-api.us-west-1.amazonaws.com",
       "conversions_hostname": "ifouxf840g.execute-api.us-west-1.amazonaws.com",
       "instock_qty_level": 1,
       "preorder_enabled": false,
