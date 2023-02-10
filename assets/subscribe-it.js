@@ -2160,7 +2160,7 @@ function getRandomSubscribeAPIPath() {
         "content_for_body": "",
         "show_phone_number_field": true,
         "only_sms_enabled": false,
-        "customer_name_enabled": false,
+        "customer_name_enabled": true,
         "show_notify_me_button_on_collection_page": false,
         "show_sms_first": true,
         "push_owl_enabled" : false,
