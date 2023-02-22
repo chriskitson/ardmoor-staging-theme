@@ -282,7 +282,7 @@
 
   <p class="line-item-property__field line-item-property__field--personalise-options">
     <label for="initials">Personalise this item with your initials (up to 4 letters with the options of adding dots between them): </label>
-    <input required id="initials" style="width:120px; max-width:100%;" type="text" name="properties[Initials]" maxlength="8" />
+    <input id="initials" style="width:120px; max-width:100%;" type="text" name="properties[Initials]" maxlength="8" />
   </p>
   
   <style>
@@ -311,6 +311,7 @@
     if ($el.val() == 0) {
       $('.line-item-property__field--personalise-options input').val('');
     }
+    $('.line-item-property__field--personalise-options input').prop('required', $el.val() == 1);
   });
   </script>
 
