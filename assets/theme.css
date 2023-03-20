@@ -12365,13 +12365,13 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 }
 
 #Avada-SC-button .Avada-inline-button a {
-  color: var(--accent-color) !important;
-  text-decoration: underline !important;
+  color: #f7640f !important;
+  text-decoration: none !important;
 }
 
 #Avada-SC-button .Avada-inline-button svg {
   top: 5px !important;
-  fill: var(--accent-color) !important;
+  fill: #f7640f !important;
 }
 
 #Avada-SC-button .Avada-inline-button a.has-icon {
