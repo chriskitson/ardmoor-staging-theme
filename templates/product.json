@@ -121,11 +121,6 @@
         "show_quick_buy": false
       }
     },
-    "164485125509096963": {
-      "type": "trustpilot-examples",
-      "settings": {
-      }
-    },
     "1674057401f450fdc0": {
       "type": "apps",
       "blocks": {
@@ -145,13 +140,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "164485125509096963": {
+      "type": "trustpilot-examples",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "recently-viewed-products",
-    "164485125509096963",
-    "1674057401f450fdc0"
+    "1674057401f450fdc0",
+    "164485125509096963"
   ]
 }
