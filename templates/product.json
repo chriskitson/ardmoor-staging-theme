@@ -129,15 +129,18 @@
     "1674057401f450fdc0": {
       "type": "apps",
       "blocks": {
-        "7a98ea35-39a4-4732-acc7-cffab97d2774": {
-          "type": "shopify:\/\/apps\/bolideai-grow-store-revenue\/blocks\/upsell_similar_products\/be916d2f-a9b6-4f13-a881-f71af667d5ea",
+        "5d951971-d073-4d74-ac5d-7d34ef521432": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
-            "upsellWidgetUniqueKey": "bolideai-ucs-dygxrgisubdyfbg"
+            "enabled": true,
+            "id": "80876",
+            "product_id_enabled": true,
+            "collection_id_enabled": true
           }
         }
       },
       "block_order": [
-        "7a98ea35-39a4-4732-acc7-cffab97d2774"
+        "5d951971-d073-4d74-ac5d-7d34ef521432"
       ],
       "settings": {
         "include_margins": true
