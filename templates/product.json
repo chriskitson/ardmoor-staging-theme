@@ -89,6 +89,7 @@
         },
         "03a1ba5e-3d5e-427b-bfad-c644c9cbaaf3": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
           "settings": {
             "enabled": true,
             "id": "81126",
@@ -121,13 +122,6 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "Customers also bought",
-        "show_quick_buy": false
-      }
-    },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "title": "You recently viewed",
         "show_quick_buy": false
       }
     },
@@ -170,7 +164,6 @@
   "order": [
     "main",
     "product-recommendations",
-    "recently-viewed-products",
     "1674057401f450fdc0",
     "164485125509096963"
   ]
