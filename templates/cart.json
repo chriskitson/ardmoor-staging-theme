@@ -16,11 +16,6 @@
         "upsell_products_count": 4
       }
     },
-    "16448512177250c5df": {
-      "type": "trustpilot-examples",
-      "settings": {
-      }
-    },
     "1680099130f400d163": {
       "type": "apps",
       "blocks": {
@@ -40,11 +35,16 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "16448512177250c5df": {
+      "type": "trustpilot-examples",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "16448512177250c5df",
-    "1680099130f400d163"
+    "1680099130f400d163",
+    "16448512177250c5df"
   ]
 }
