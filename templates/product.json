@@ -86,6 +86,15 @@
             "bullet_5_link": "",
             "bullet_5_icon": "truck"
           }
+        },
+        "03a1ba5e-3d5e-427b-bfad-c644c9cbaaf3": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "81123",
+            "product_id_enabled": true,
+            "collection_id_enabled": true
+          }
         }
       },
       "block_order": [
@@ -97,7 +106,8 @@
         "45dcb553-2581-4293-86f6-3d2bcfa6ff2c",
         "82e44bf0-0f32-49d5-b3d3-034c460db1e8",
         "4e6a5960-e2e9-4075-92ed-5694cfdbb7b4",
-        "e554168f-105c-48cd-aa3d-ba9acb246432"
+        "e554168f-105c-48cd-aa3d-ba9acb246432",
+        "03a1ba5e-3d5e-427b-bfad-c644c9cbaaf3"
       ],
       "settings": {
         "image_size": "medium",
@@ -124,6 +134,15 @@
     "1674057401f450fdc0": {
       "type": "apps",
       "blocks": {
+        "0c0144fa-1ef2-4739-824e-555be5af69e1": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "81123",
+            "product_id_enabled": true,
+            "collection_id_enabled": true
+          }
+        },
         "63080a0f-0907-4359-bf1a-3b1df2e0b1c6": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
@@ -141,21 +160,12 @@
             "product_id_enabled": true,
             "collection_id_enabled": true
           }
-        },
-        "0c0144fa-1ef2-4739-824e-555be5af69e1": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "81123",
-            "product_id_enabled": true,
-            "collection_id_enabled": true
-          }
         }
       },
       "block_order": [
+        "0c0144fa-1ef2-4739-824e-555be5af69e1",
         "63080a0f-0907-4359-bf1a-3b1df2e0b1c6",
-        "09cf9cf6-34c3-4801-bfef-326678e53a1b",
-        "0c0144fa-1ef2-4739-824e-555be5af69e1"
+        "09cf9cf6-34c3-4801-bfef-326678e53a1b"
       ],
       "settings": {
         "include_margins": true
