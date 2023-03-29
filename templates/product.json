@@ -87,11 +87,11 @@
             "bullet_5_icon": "truck"
           }
         },
-        "03a1ba5e-3d5e-427b-bfad-c644c9cbaaf3": {
+        "38a49a2b-c9af-415f-b56c-e81571d4b693": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
-            "id": "81126",
+            "id": "88210",
             "product_id_enabled": true,
             "collection_id_enabled": true
           }
@@ -107,7 +107,7 @@
         "82e44bf0-0f32-49d5-b3d3-034c460db1e8",
         "4e6a5960-e2e9-4075-92ed-5694cfdbb7b4",
         "e554168f-105c-48cd-aa3d-ba9acb246432",
-        "03a1ba5e-3d5e-427b-bfad-c644c9cbaaf3"
+        "38a49a2b-c9af-415f-b56c-e81571d4b693"
       ],
       "settings": {
         "image_size": "medium",
