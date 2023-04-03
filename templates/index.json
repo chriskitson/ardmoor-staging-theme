@@ -61,13 +61,13 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "text_colour": "#FFFFFFF",
+        "text_colour": "#fffff",
         "main_heading": "",
         "main_heading_size": 60,
         "main_category_heading": "Shop Easter Sale",
-        "main_category_heading_size": 23,
+        "main_category_heading_size": 31,
         "main_category_link": "shopify:\/\/collections\/sailing",
-        "main_image": "shopify:\/\/shop_images\/Easter_Sale_at_ArdMoor_c354c586-c5f0-413a-a8f9-2b0de61ddd36.jpg",
+        "main_image": "shopify:\/\/shop_images\/Easter_Sale_at_ArdMoor_e6b09b99-d632-48cd-9b00-8fa024a5d7a8.jpg",
         "split_view": false,
         "split_category_heading": "Shop Women's",
         "split_category_heading_size": 30,
