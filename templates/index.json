@@ -369,12 +369,31 @@
             "button_text": "",
             "link": ""
           }
+        },
+        "342e055c-78b6-4c6c-a6f6-78eae264a729": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "Your heading",
+            "subtitle": "Your subtitle",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "164459434570c9645d-0",
         "164459434570c9645d-1",
-        "164459434570c9645d-2"
+        "164459434570c9645d-2",
+        "342e055c-78b6-4c6c-a6f6-78eae264a729"
       ],
       "settings": {
         "section_size": "small"
