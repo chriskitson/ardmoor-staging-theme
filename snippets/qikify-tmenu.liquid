@@ -1,5 +1,5 @@
 <script type="text/javascript" src="https://sdk.qikify.com/tmenu/app-v5.js" defer="defer"></script>
-{% render 'qikify-tmenu-data' %}
+{{ 'qikify-tmenu-data.js' | asset_url | script_tag }}
 <style id="qikify-tmenu-custom-style">/*Miley - ticket 30793 - 07Oct2022*/
 .tmenu_nav li.tmenu_item--root > .tmenu_item_link {
   font-weight: 600 !important;
