@@ -63,9 +63,9 @@
       "settings": {
         "text_colour": "#00000",
         "main_heading": "Be Ready Whatever The Weather",
-        "main_heading_size": 60,
+        "main_heading_size": 50,
         "main_category_heading": "Shop Waterproofs",
-        "main_category_heading_size": 40,
+        "main_category_heading_size": 30,
         "main_category_link": "shopify:\/\/collections\/sailing",
         "main_image": "shopify:\/\/shop_images\/Be_Prepared_Whatever_the_Weather_-_April_Showers.jpg",
         "split_view": false,
