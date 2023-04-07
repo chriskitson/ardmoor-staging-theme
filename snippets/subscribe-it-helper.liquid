@@ -10,11 +10,11 @@ This snippet is auto generated and will be overwritten.
 <script id="subscribe-it-helper">
     function getRandomSubscribeAPIPath() {
         const apiGatewayPaths=[]
-        //apiGatewayPaths.push('xsy6rdr4zb') //Commented because too many messages pending in this SQS queue
-        apiGatewayPaths.push('pw4ndd3ije')
-        apiGatewayPaths.push('056wq1p6oa')
-        apiGatewayPaths.push('obx6oifedg')
-        apiGatewayPaths.push('seknvpr88e')
+        apiGatewayPaths.push('xsy6rdr4zb') //Load balancer
+        //apiGatewayPaths.push('pw4ndd3ije')
+        //apiGatewayPaths.push('056wq1p6oa')
+        //apiGatewayPaths.push('obx6oifedg')
+        //apiGatewayPaths.push('seknvpr88e')
 
         return apiGatewayPaths[Math.floor(Math.random()*apiGatewayPaths.length)]
     }
@@ -51,7 +51,7 @@ This snippet is auto generated and will be overwritten.
             "terms_and_conditions_text": "I accept the terms and conditions"
         },
         "form_display_type": "POPUP",
-        "madeby_link_visible": false,
+        "madeby_link_visible": true,
         "hide_for_product_tag": "notify-it-hidden",
         "hide_for_collections": "",
         "recaptcha_enabled": null,
