@@ -674,15 +674,7 @@
                                 </div>
                             </div>
     
-                            <button
-                                class="rebuy-button"
-                                v-bind:class="{ working: (product.status != 'ready' && product.status != 'selecting') }"
-                                v-bind:disabled="!(variantAvailable(product.selected_variant)) || (product.status != 'ready' && product.status != 'selecting')"
-                                v-bind:alt="'Add ' + product.title + ' to Cart'"
-                                v-on:click="addToCart(product)"
-                                type="button">
-                                    <span v-html="buttonLabel(product)"></span>XXX123
-                            </button>
+
                         </div>
                     </div>
     
