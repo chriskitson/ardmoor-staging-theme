@@ -424,19 +424,6 @@
       "settings": {
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "stods-top-picks",
-        "title": "",
-        "products_count": 6,
-        "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -504,7 +491,6 @@
     "16806238046c65ae5e",
     "16445943450431d874",
     "5d347ba3-5af1-4393-a6df-646ed96ac5d6",
-    "featured-collection",
     "blog-posts",
     "1644595160dd732049",
     "1644850748249d1162",
