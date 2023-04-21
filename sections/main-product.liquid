@@ -530,6 +530,7 @@
           {%- endfor -%}
         </div>
       </div>
+                            CHRIS K
     </div>
   {%- else -%}
     {%- comment -%}We display the quick view within the product template so we can re-use the same settings{%- endcomment -%}
@@ -580,18 +581,7 @@
   CompareAtPrice: {{ product.compare_at_price_max | money | json }}
   };
   _learnq.push(['track', 'Viewed Product', item]);
-                                                                                                                                              _learnq.push(['trackViewedItem', {
-                                                                                                                                                Title: item.Name,
-                                                                                                                                                ItemId: item.ProductID,
-                                                                                                                                                Categories: item.Categories,
-                                                                                                                                                ImageUrl: item.ImageURL,
-                                                                                                                                                Url: item.URL,
-                                                                                                                                                Metadata: {
-                                                                                                                                                  Brand: item.Brand,
-                                                                                                                                                  Price: item.Price,
-                                                                                                                                                  CompareAtPrice: item.CompareAtPrice
-                                                                                                                                                }
-                                                                                                                                              }]);
+                                                                                                                                                                                                                                                                                   }]);
 </script>
 
 <script type="text/javascript">
