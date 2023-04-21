@@ -419,6 +419,11 @@
         "section_size": "small"
       }
     },
+    "5d347ba3-5af1-4393-a6df-646ed96ac5d6": {
+      "type": "stods-picks",
+      "settings": {
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -498,6 +503,7 @@
     "1644592075e5952c3f",
     "16806238046c65ae5e",
     "16445943450431d874",
+    "5d347ba3-5af1-4393-a6df-646ed96ac5d6",
     "featured-collection",
     "blog-posts",
     "1644595160dd732049",
