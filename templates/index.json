@@ -313,6 +313,11 @@
         "include_margins": true
       }
     },
+    "5d347ba3-5af1-4393-a6df-646ed96ac5d6": {
+      "type": "stods-picks",
+      "settings": {
+      }
+    },
     "16445943450431d874": {
       "type": "mosaic",
       "blocks": {
@@ -397,11 +402,6 @@
         "section_size": "small"
       }
     },
-    "5d347ba3-5af1-4393-a6df-646ed96ac5d6": {
-      "type": "stods-picks",
-      "settings": {
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -467,8 +467,8 @@
     "164700286922882edc",
     "1644592075e5952c3f",
     "16806238046c65ae5e",
-    "16445943450431d874",
     "5d347ba3-5af1-4393-a6df-646ed96ac5d6",
+    "16445943450431d874",
     "blog-posts",
     "1644595160dd732049",
     "1644850748249d1162",
