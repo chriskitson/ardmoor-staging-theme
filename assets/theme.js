@@ -18707,3 +18707,6 @@
   })();
 
 })));
+
+
+console.log('width', window.innerWidth);
