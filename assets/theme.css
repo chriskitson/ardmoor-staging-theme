@@ -6796,7 +6796,10 @@ select option {
     display: none;
   }
   .breadcrumb__list > .breadcrumb__item:nth-last-child(2) {
-    display: block !important;
+    display: block !important
+  }
+  .breadcrumb__list > .breadcrumb__item:nth-last-child(2)::before {
+    content: 'Back to ';
   }
   .page__navigation {
     display: none;
