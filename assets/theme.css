@@ -6795,7 +6795,7 @@ select option {
   .breadcrumb__item {
     display: none;
   }
-  .breadcrumb__list > .breadcrumb__item:last-child(-1) {
+  .breadcrumb__list > .breadcrumb__item:last-child(2) {
     display: block !important;
   }
   .page__navigation {
