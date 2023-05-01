@@ -18712,5 +18712,5 @@
 if (window.innerWidth < 640) {
 
 
-  console.log(document.getElementsByClassName("product-block-list__tabs_navigation").length);
+  console.log(document.getElementsByClassName("product-block-list__tabs_navigation2").length);
 }
