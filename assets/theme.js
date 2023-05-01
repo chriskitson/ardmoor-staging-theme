@@ -18710,7 +18710,10 @@
 
 // unselect description tab if small screen
 if (window.innerWidth < 640) {
+  if (document.getElementsByClassName("product-block-list__tabs_navigation").length > 0) {
+    const selectedElement = document.getElementsByClassName("product-block-list__tabs_navigation");
+    console.log('selected', selectedElement.length);
+  }
 
-
-  console.log(document.getElementsByClassName("product-block-list__tabs_navigation2").length);
+  console.log();
 }
