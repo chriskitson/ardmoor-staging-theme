@@ -6804,6 +6804,9 @@ select option {
   .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a::before {
     content: 'Back to ';
   }
+  .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a {
+     color: var(--accent-color); 
+  }
   .page__navigation {
     display: none;
   }
