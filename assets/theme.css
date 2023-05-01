@@ -12486,6 +12486,13 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   display: block;
 }
 
+@media screen and (max-width: 640px) {
+  #product-description.product-block-list__tab {
+    display: none;
+  }
+}
+
+
 .product-block-list__tab .card {
   border-top: 0px !important;
 }
