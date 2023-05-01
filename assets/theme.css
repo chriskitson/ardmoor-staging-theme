@@ -6789,6 +6789,9 @@ select option {
   .breadcrumb {
     background: red;
   }
+  .page__navigation {
+    display: none;
+  }
 }
 
 
