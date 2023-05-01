@@ -6801,7 +6801,7 @@ select option {
   .breadcrumb__list > .breadcrumb__item:nth-last-child(2) {
     display: block !important
   }
-  .breadcrumb__list > .breadcrumb__item:nth-last-child(2)::before {
+  .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a::before {
     content: 'Back to ';
   }
   .page__navigation {
