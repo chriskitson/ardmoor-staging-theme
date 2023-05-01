@@ -6782,7 +6782,7 @@ select option {
 }
 
 @media screen and (max-width: 640px) {
-  .page__sub-header {
+  section[data-section-type=product].page__sub-header {
     display: block;
     margin: 0;
   }
