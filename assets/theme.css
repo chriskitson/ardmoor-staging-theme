@@ -6792,6 +6792,9 @@ select option {
   .breadcrumb__list {
     flex-wrap: wrap;
   }
+  .breadcrumb__item {
+    display: none;
+  }
   .page__navigation {
     display: none;
   }
