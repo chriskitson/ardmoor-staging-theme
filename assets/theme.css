@@ -6795,9 +6795,8 @@ select option {
   .breadcrumb__item {
     display: none;
   }
-  .page__navigation {
-    display: none;
-  }
+  .breadcrumb__list .breadcrumb__item:last-child(-1)
+    display: block;
 }
 
 /* Page description must be contained within a page__header, and has less spacing than page__content */
