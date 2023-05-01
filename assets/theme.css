@@ -6789,12 +6789,13 @@ select option {
   .breadcrumb {
     background: red;
   }
+  .breadcrumb__list {
+    flex-wrap: wrap;
+  }
   .page__navigation {
     display: none;
   }
 }
-
-
 
 /* Page description must be contained within a page__header, and has less spacing than page__content */
 .page__description {
