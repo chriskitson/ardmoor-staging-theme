@@ -12483,9 +12483,12 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 }
 
 // mobile hide
-@media screen and (min-width: 640px) {
+#product-description.product-block-list__tab {
+  display: block;
+}
+@media screen and (max-width: 640px) {
   #product-description.product-block-list__tab {
-    display: block;
+    display: none;
   }
 }
 
