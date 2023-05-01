@@ -6780,6 +6780,19 @@ select option {
   margin: 23px 0;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 13px));
 }
+
+@media screen and (max-width: 640px) {
+  .page__sub-header {
+    display: block;
+    margin: 0;
+  }
+  .breadcrumb {
+    background: red;
+  }
+}
+
+
+
 /* Page description must be contained within a page__header, and has less spacing than page__content */
 .page__description {
   margin: 10px 0 0 0;
@@ -12610,15 +12623,4 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 #rebuy-widget-82136 {
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-
-// show breadcrumbs on mobile
-@media screen and (max-width: 640px) {
-  .page__sub-header {
-    display: block !important;
-  }
-  .breadcrumb {
-    background: red;
-  }
 }
