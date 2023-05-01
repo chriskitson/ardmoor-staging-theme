@@ -18708,5 +18708,9 @@
 
 })));
 
+// unselect description tab if small screen
+if (window.innerWidth < 640) {
 
-console.log('width', window.innerWidth);
+
+  console.log(document.getElementsByClassName("product-block-list__tabs_navigation").length);
+}
