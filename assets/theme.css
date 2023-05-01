@@ -6802,7 +6802,7 @@ select option {
     display: block !important
   }
   .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a::before {
-    content: 'Back to ';
+    content: '< Back to ';
   }
   .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a {
      color: var(--accent-color); 
