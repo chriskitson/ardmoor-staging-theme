@@ -12618,4 +12618,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   .page__sub-header {
     display: block !important;
   }
+  .breadcrumb {
+    background: red;
+  }
 }
