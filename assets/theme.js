@@ -18711,7 +18711,7 @@
 // unselect description tab if small screen
 if (window.innerWidth < 640) {
   if (document.getElementsByClassName("product-block-list__tabs_navigation").length > 0) {
-    const selectedElement = document.getElementsByClassName("product-block-list__tabs_navigation").getElementsByClassName(".selected");
+    const selectedElement = document.getElementsByClassName("product-block-list__tabs_navigation")[0].getElementsByClassName(".selected");
     console.log('selEl', selectedElement);
     if (selectedElement.length > 0) {
       selectedElement[0].classList.remove("selected");
