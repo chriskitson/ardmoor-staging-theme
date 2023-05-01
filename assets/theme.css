@@ -6795,6 +6795,9 @@ select option {
   .breadcrumb__item {
     display: none;
   }
+  .breadcrumb__item svg {
+    display: none;
+  }
   .breadcrumb__list > .breadcrumb__item:nth-last-child(2) {
     display: block !important
   }
