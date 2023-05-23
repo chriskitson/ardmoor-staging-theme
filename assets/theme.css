@@ -6798,13 +6798,13 @@ select option {
   .breadcrumb__item svg {
     display: none;
   }
-  .breadcrumb__list > .breadcrumb__item:last-child(-1) {
+  .breadcrumb__list > .breadcrumb__item:nth-last-child(2) {
     display: block !important
   }
-  .breadcrumb__list > .breadcrumb__item:last-child(-1) a::before {
+  .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a::before {
     content: '< Back to ';
   }
-  .breadcrumb__list > .breadcrumb__item:last-child(-1) a {
+  .breadcrumb__list > .breadcrumb__item:nth-last-child(2) a {
     color: var(--accent-color);
     font-weight: 700;
   }
