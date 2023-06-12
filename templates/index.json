@@ -67,11 +67,12 @@
         "main_category_heading": "Shop Summer Clothing",
         "main_category_heading_size": 30,
         "main_category_link": "shopify:\/\/collections\/sailing",
-        "main_image": "shopify:\/\/shop_images\/Summer_37a4c03c-c6b2-4bb4-9ee3-b5b917830785.jpg",
-        "split_view": false,
+        "main_image": "shopify:\/\/shop_images\/Dubarry_Life_at_ArdMoor.jpg",
+        "split_view": true,
         "split_category_heading": "Shop Women's",
         "split_category_heading_size": 30,
-        "split_category_link": "shopify:\/\/collections\/womens-jackets-coats"
+        "split_category_link": "shopify:\/\/collections\/womens-jackets-coats",
+        "split_image": "shopify:\/\/shop_images\/Dubarry_Beach_Life.jpg"
       }
     },
     "slideshow": {
