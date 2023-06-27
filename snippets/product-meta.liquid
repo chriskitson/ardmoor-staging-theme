@@ -210,7 +210,7 @@
 <script type="text/javascript">
 jQuery(".ruk_rating_snippet").first().on("click", () => {
 
-    const link = jQuery(".product-block-list__tabs_navigation").first();
+    const link = jQuery(".product-block-list__tabs_navigation > li > a")
     if (link) {
       console.log(link);
       link.click();
