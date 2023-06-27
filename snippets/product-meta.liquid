@@ -212,11 +212,7 @@ const reviewStarsClick = () => {
   console.log("click stars");
 }
 const reviewStars = document.getElementsByClassName("ruk_rating_snippet");
-  console.log({
-    reviewStars
-  });
-  if (reviewStars.length > 0) {
-    reviewStars[0].addEventListener('click', reviewStarsClick, false);
-  }
-
+if (reviewStars.length > 0) {
+  reviewStars[0].addEventListener('click', reviewStarsClick, false);
+}
 </script>
