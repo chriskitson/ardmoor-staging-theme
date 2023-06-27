@@ -151,6 +151,14 @@
                         </li>
                       {%- endif -%}
                     {%- endfor -%}
+                  {%- when 'reviews-io' -%}
+                    {% for tag in product.tags %}
+                      {% if tag contains 'product-review' %}
+                        <li>
+                          <a href="#product-reviews-io">Product Reviews <span class="arrow" /></a>
+                        </li>
+                      {%- endif -%}
+                    {%- endfor -%}
                 {%- endcase -%}
               {%- endfor -%}
               <li class="spacer"></li>
