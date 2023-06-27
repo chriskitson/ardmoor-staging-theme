@@ -60,6 +60,7 @@
         },
         "82e44bf0-0f32-49d5-b3d3-034c460db1e8": {
           "type": "tp-reviews",
+          "disabled": true,
           "settings": {
           }
         },
