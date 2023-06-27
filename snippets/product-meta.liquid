@@ -220,8 +220,8 @@ const reviewStarsClick = () => {
     
   }
 }
-const reviewStars = document.getElementsByClassName("ruk_rating_snippet");
-if (reviewStars.length > 0) {
-  reviewStars[0].addEventListener('click', reviewStarsClick, false);
-}
+
+jQuery(".ruk_rating_snippet").first().on("click", () => {
+    console.log("click stars");
+});
 </script>
