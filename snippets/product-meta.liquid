@@ -208,22 +208,13 @@
 <hr class="card__separator">
 
 <script type="text/javascript">
-const reviewStarsClick = () => {
-  console.log("click stars");
-  let tab = document.getElementsByClassName("product-block-list__tabs_navigation");
-  if (tab.length > 0) {
-    tab = tab[0];
-    console.log({
-      tab,
-      jQuery
-    });
-    
-  }
-}
-
 jQuery(".ruk_rating_snippet").first().on("click", () => {
 
     const link = jQuery(".product-block-list__tabs_navigation > li").eq(-2).children("a");
+    if (link) {
+      link.click();
+    }
+  
   
     console.log("click stars", link);
 });
