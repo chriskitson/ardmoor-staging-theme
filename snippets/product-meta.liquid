@@ -212,7 +212,9 @@ jQuery(".ruk_rating_snippet").first().on("click", () => {
   const $link = jQuery(".product-block-list__tabs_navigation > ul > li > a");
   if ($link.length > 0) {
     $link.last().click();
-    console.log($link.attr("href"));
+    $('html,body').animate({
+     scrollTop: $("#product-reviews-io").offset().top
+    });
   }
 });
 </script>
