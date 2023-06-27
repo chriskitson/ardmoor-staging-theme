@@ -222,6 +222,9 @@ const reviewStarsClick = () => {
 }
 
 jQuery(".ruk_rating_snippet").first().on("click", () => {
-    console.log("click stars");
+
+    const link = jQuery(".product-block-list__tabs_navigation > li").eq(-2).children("a");
+  
+    console.log("click stars", link);
 });
 </script>
