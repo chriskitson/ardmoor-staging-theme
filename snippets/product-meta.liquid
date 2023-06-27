@@ -46,11 +46,11 @@
         <!-- TrustBox widget - Product Mini -->
         {%- capture variant_skus -%}
           {%- for variant in product.variants -%}
-            {{- variant.sku -}}{%- if forloop.last == false -%},{%- endif -%}
+            {{- variant.sku -}}{%- if forloop.last == false -%};{%- endif -%}
           {%- endfor -%}
         {%- endcapture -%}
 
-<div class="ruk_rating_snippet" data-sku="{{ product.metafields.details.code }},{{ variant_skus }}"></div>
+<div class="ruk_rating_snippet" data-sku="{{ product.metafields.details.code }};{{ variant_skus }}"></div>
   
 <!--         <div class="trustpilot-container">
           <div
