@@ -211,6 +211,7 @@
 <script type="text/javascript">
 jQuery(".ruk_rating_snippet, .ruk_read_reviews").first().on("click", ($event) => {
   $event.preventDefault();
+  console.log('hello world')
   const $link = jQuery(".product-block-list__tabs_navigation > ul > li > a");
   if ($link.length > 0) {
     $link.last().click();
