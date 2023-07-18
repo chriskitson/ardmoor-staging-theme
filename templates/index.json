@@ -196,6 +196,7 @@
           "type": "collection",
           "settings": {
             "collection": "harkila",
+            "image": "shopify:\/\/shop_images\/harkila_300x_4432b50a-f865-4977-8668-7a79b5d0c6ec.webp",
             "link": ""
           }
         },
@@ -203,6 +204,7 @@
           "type": "collection",
           "settings": {
             "collection": "hoggs-of-fife",
+            "image": "shopify:\/\/shop_images\/hoggs-of-fife-logo_300x_3b0de77d-0e5d-4afd-ab63-1abb41fe9058.jpg",
             "link": ""
           }
         },
@@ -210,6 +212,7 @@
           "type": "collection",
           "settings": {
             "collection": "seeland",
+            "image": "shopify:\/\/shop_images\/seeland_300x_576a0af9-6c1e-4685-8ccb-c34c01a187a1.webp",
             "link": ""
           }
         },
@@ -217,6 +220,7 @@
           "type": "collection",
           "settings": {
             "collection": "ridgeline",
+            "image": "shopify:\/\/shop_images\/ridgeline_300x_4e48e4e0-6da3-4b93-a9b3-56f8510c1035.webp",
             "link": ""
           }
         },
@@ -224,6 +228,7 @@
           "type": "collection",
           "settings": {
             "collection": "deerhunter",
+            "image": "shopify:\/\/shop_images\/deerhunter_0321100d-a13e-4ee8-b495-e5b758e85d2c.jpg",
             "link": ""
           }
         },
@@ -231,6 +236,7 @@
           "type": "collection",
           "settings": {
             "collection": "laksen",
+            "image": "shopify:\/\/shop_images\/laksen.jpg",
             "link": ""
           }
         },
@@ -246,6 +252,7 @@
           "type": "collection",
           "settings": {
             "collection": "orca-bay",
+            "image": "shopify:\/\/shop_images\/orca-bay_300x_e7c1505b-3f84-4821-997a-164c8623e4b1.webp",
             "link": ""
           }
         },
@@ -253,13 +260,15 @@
           "type": "collection",
           "settings": {
             "collection": "blundstone",
+            "image": "shopify:\/\/shop_images\/blundstone.jpg",
             "link": ""
           }
         },
         "2a9c87fb-a722-4c1f-818e-78d8d2389a56": {
           "type": "collection",
           "settings": {
-            "collection": "musto",
+            "collection": "ariat",
+            "image": "shopify:\/\/shop_images\/Ariat_Logo.jpg",
             "link": ""
           }
         },
@@ -267,6 +276,7 @@
           "type": "collection",
           "settings": {
             "collection": "dubarry",
+            "image": "shopify:\/\/shop_images\/dubarry_300x_d2afee06-ebb7-4f95-93ad-d07df2135923.jpg",
             "link": ""
           }
         },
@@ -274,6 +284,7 @@
           "type": "collection",
           "settings": {
             "collection": "chevalier",
+            "image": "shopify:\/\/shop_images\/chevalier_300x_ab0cbc65-5e73-4211-ba43-16c79b36e431.jpg",
             "link": ""
           }
         },
@@ -281,6 +292,7 @@
           "type": "collection",
           "settings": {
             "collection": "crispi",
+            "image": "shopify:\/\/shop_images\/Crispi-Logo.jpg",
             "link": ""
           }
         }
