@@ -24,7 +24,7 @@
           "settings": {
             "title": "Boots",
             "link": "shopify:\/\/collections\/country-boots",
-            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_2.jpg"
+            "image": "shopify:\/\/shop_images\/Blundstone_Boots.jpg"
           }
         },
         "fe538804-7a5b-46f5-8adc-907124528c4b": {
@@ -38,17 +38,17 @@
         "65d392c4-4aea-4b4f-a127-7a6aef7ab122": {
           "type": "image",
           "settings": {
-            "title": "Hoggs of Fife",
+            "title": "Ridgeline",
             "link": "shopify:\/\/collections\/hoggs-of-fife",
-            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_6c3964fa-11a4-46bb-9240-1511c58e0eb2.jpg"
+            "image": "shopify:\/\/shop_images\/Ridgeline_Clothing_UK.jpg"
           }
         },
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb": {
           "type": "image",
           "settings": {
-            "title": "Jack Pyke",
+            "title": "Hoggs of Fife",
             "link": "shopify:\/\/collections\/sale",
-            "image": "shopify:\/\/shop_images\/Jack_Pyke_3098d3a4-1598-41d3-84e8-79af096a1f89.jpg"
+            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_Luthie_Shirt.._991f9ed9-f634-47ba-8add-1478f57cad76.jpg"
           }
         }
       },
