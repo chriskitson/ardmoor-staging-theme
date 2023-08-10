@@ -67,7 +67,7 @@
         "main_category_heading": "Shop Shooting",
         "main_category_heading_size": 45,
         "main_category_link": "shopify:\/\/collections\/ac-shooting-accessories",
-        "main_image": "shopify:\/\/shop_images\/shutterstock_113918890.jpg",
+        "main_image": "shopify:\/\/shop_images\/0049-partridge-shoot_43f45c19-35c1-4c9f-9494-9dad5fd9e923.jpg",
         "split_view": false,
         "split_category_heading": "Shop Men's",
         "split_category_heading_size": 30,
@@ -77,6 +77,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-1": {
           "type": "image",
@@ -98,7 +99,6 @@
       "block_order": [
         "slide-1"
       ],
-      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "preserve_ratio",
@@ -120,6 +120,7 @@
     },
     "1647000773b387e878": {
       "type": "activity-tiles",
+      "disabled": true,
       "blocks": {
         "1647000773cecac922-0": {
           "type": "image",
@@ -142,7 +143,6 @@
         "1647000773cecac922-0",
         "1647000773cecac922-1"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "link_title": "",
@@ -151,6 +151,7 @@
     },
     "164700286922882edc": {
       "type": "activity-tiles",
+      "disabled": true,
       "blocks": {
         "164700286945084a74-1": {
           "type": "image",
@@ -182,7 +183,6 @@
         "164700286945084a74-2",
         "164700286945084a74-0"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "link_title": "",
