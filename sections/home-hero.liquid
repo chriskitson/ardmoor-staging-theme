@@ -27,10 +27,10 @@
         <img src="{{ section.settings.main_image | img_url: '1400x480', crop: 'center' }}" alt="{{ section.settings.main_image.alt | escape }}" />
         <div class="hero__main__links">
           <div class="hero__main__item">
-            <a href="{{ section.settings.main_category_link }}" class="hero__main__item__heading" style="color:#{{ section.settings.main_category_text_colour }}; font-size: {{ section.settings.main_category_heading_size }}px;">{{ section.settings.main_category_heading }} &raquo;</a>
+            <a href="{{ section.settings.main_category_link }}" class="hero__main__item__heading" style="color:{{ section.settings.main_category_text_colour }}; font-size: {{ section.settings.main_category_heading_size }}px;">{{ section.settings.main_category_heading }} &raquo;</a>
           </div>
           <div class="hero__main__item">
-            <a href="{{ section.settings.split_category_link }}" class="hero__main__item__heading" style="color:#{{ section.settings.split_category_text_colour }}; font-size: {{ section.settings.split_category_heading_size }}px;">{{ section.settings.split_category_heading }} &raquo;</a>
+            <a href="{{ section.settings.split_category_link }}" class="hero__main__item__heading" style="color:{{ section.settings.split_category_text_colour }}; font-size: {{ section.settings.split_category_heading_size }}px;">{{ section.settings.split_category_heading }} &raquo;</a>
           </div>
         </div>
         <h1 style="color:#{{ section.settings.text_colour }}; font-size: {{ section.settings.main_heading_size }}px;">{{ section.settings.main_heading }}</h1>
