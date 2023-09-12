@@ -312,6 +312,9 @@
         "d68d241b-ba7a-44d7-b09a-217257aa3280",
         "db45a3ba-655a-4772-bdfb-0678cf430ed5"
       ],
+      "custom_css": [
+        "section {background: red;}"
+      ],
       "settings": {
         "title": "",
         "link_title": "View all",
