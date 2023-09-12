@@ -1,14 +1,16 @@
 <section data-section-id="{{ section.id }}" data-section-settings='{{ section_settings }}' class="hero">
   <div class="container">
- {%- if section.settings.split_view and section.settings.split_view_links -%}
-  Images and links split
-       {%- elsif  section.settings.split_view -%}
-    Image split
-       {%- elsif  section.settings.split_view_links -%}
-   Links split
-         {%- else -%}
-   Default
-       {%- endif -%}
+    {%- if section.settings.split_view and section.settings.split_view_links -%}
+      <div class="hero__main hero__main--split" style="color:{{ section.settings.text_colour }};">
+
+      </div>
+    {%- elsif  section.settings.split_view -%}
+      Image split
+    {%- elsif  section.settings.split_view_links -%}
+      Links split
+    {%- else -%}
+      Default
+    {%- endif -%}
 
 
     
