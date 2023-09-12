@@ -2,14 +2,16 @@
   <div class="container">
     {%- if section.settings.split_view and section.settings.split_view_links -%}
       <div class="hero__main hero__main--split" style="color:{{ section.settings.text_colour }};">
-
+        Images and links split
       </div>
     {%- elsif  section.settings.split_view -%}
       Image split
     {%- elsif  section.settings.split_view_links -%}
       Links split
     {%- else -%}
-      Default
+      <div class="hero__main hero__main--full" style="color:{{ section.settings.text_colour }};">
+        Default
+      </div>
     {%- endif -%}
 
 
