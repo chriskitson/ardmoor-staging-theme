@@ -8,7 +8,7 @@
 
 
         {%- if section.settings.split_view == false -%}
-          <a href="{{ section.settings.main_category_link }}" class="hero__main__item__image"><img src="{{ section.settings.main_image | img_url: '1400x480', crop: 'center' }}" alt="{{ section.settings.main_image.alt | escape }}" /></a>
+          <a href="{{ section.settings.main_category_link }}" class="hero__main__item__image hero__main__item__image__full"><img src="{{ section.settings.main_image | img_url: '1400x480', crop: 'center' }}" alt="{{ section.settings.main_image.alt | escape }}" /></a>
         {%- endif -%}
         
       <div class="hero__main__item">
