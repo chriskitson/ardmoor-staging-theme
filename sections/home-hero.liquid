@@ -30,7 +30,11 @@
         <div class="hero__main__links">
           <div class="hero__main__item">
             <a href="{{ section.settings.main_category_link }}" class="hero__main__item__heading" style="color:{{ section.settings.main_category_text_colour }}; font-size: {{ section.settings.main_category_heading_size }}px;">
-              {{ section.settings.main_category_heading }} &raquo;
+              {%- if section.settings.main_category_background_colour == "" -%}        
+                123
+              {%- else -%}
+                ABC
+              {%- endif -%}
             </a>
           </div>
           <div class="hero__main__item">
