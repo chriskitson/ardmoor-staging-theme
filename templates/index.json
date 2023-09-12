@@ -313,7 +313,7 @@
         "db45a3ba-655a-4772-bdfb-0678cf430ed5"
       ],
       "custom_css": [
-        "section {background: red;}"
+        "section {margin: 10px !important;}"
       ],
       "settings": {
         "title": "",
