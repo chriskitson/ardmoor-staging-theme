@@ -61,17 +61,21 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "text_colour": "#00000",
+        "text_colour": "#000000",
         "main_heading": "Hello world!",
         "main_heading_size": 60,
         "main_category_heading": "Shop Shooting",
         "main_category_heading_size": 30,
+        "main_category_background_colour": "",
+        "main_category_text_colour": "#970000",
         "main_category_link": "shopify:\/\/collections\/ac-shooting-accessories",
         "main_image": "shopify:\/\/shop_images\/Ballater-Field-Jacket-Woodhall-Fleece-Gilet-_-Trousers-Rannoch-Ladies-Hunting-Jacket_230594.jpg",
         "split_view": false,
         "split_view_links": true,
         "split_category_heading": "Shop Men's",
         "split_category_heading_size": 30,
+        "split_category_background_colour": "",
+        "split_category_text_colour": "#3f6ab1",
         "split_category_link": "shopify:\/\/collections\/womens-jackets-coats",
         "split_image": "shopify:\/\/shop_images\/Dubarry_Beach_Life.jpg"
       }
