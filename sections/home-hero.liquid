@@ -1,6 +1,6 @@
 <section data-section-id="{{ section.id }}" data-section-settings='{{ section_settings }}' class="hero">
   <div class="container">
-    {%- if section.settings.split_view -%}
+    {%- if section.settings.split_view or section.settings.split_view_links -%}
       <div class="hero__main hero__main--split" style="color:{{ section.settings.text_colour }};">
     {%- else -%}
       <div class="hero__main hero__main--full" style="color:{{ section.settings.text_colour }};">
