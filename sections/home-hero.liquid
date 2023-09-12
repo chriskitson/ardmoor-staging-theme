@@ -24,6 +24,7 @@
       </div>
     {%- elsif  section.settings.split_view_links -%}
       <div class="hero__main hero__main--split" style="color:{{ section.settings.text_colour }};">
+        <img src="{{ section.settings.main_image | img_url: '1400x480', crop: 'center' }}" alt="{{ section.settings.main_image.alt | escape }}" />
         <div class="hero__main__item">
           <a href="{{ section.settings.main_category_link }}" class="hero__main__item__heading" style="color:{{ section.settings.text_colour }}; font-size: {{ section.settings.main_category_heading_size }}px;">{{ section.settings.main_category_heading }} &raquo;</a>
         </div>
