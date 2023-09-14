@@ -60,8 +60,6 @@
                 {%- endfor -%}
               {%- endif -%}
 
-                              Hello world!
-
               <div class="product-gallery__carousel-item {% if media.id == selected_media.id %}is-selected{% endif %} {% if is_media_filtered %}is-filtered{% endif %}" tabindex="-1" data-media-id="{{ media.id }}" data-media-type="{{ media.media_type | escape }}" {% if media.media_type == 'external_video' %}data-media-host="{{ media.host | escape }}" data-video-id="{{ media.external_id | escape }}"{% endif %} {% if is_media_group %}data-group-name="{{ media_group_parts.first | strip | downcase | escape }}" data-group-value="{{ media_group_parts.last | strip | downcase | escape }}"{% endif %}>
                 {%- case media.media_type -%}
                   {%- when 'image' -%}
