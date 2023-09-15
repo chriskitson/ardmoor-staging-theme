@@ -3841,7 +3841,8 @@
         var _this = this;
 
         this.player = new Shopify.Plyr(this.element.querySelector('video'), {
-          controls: ['play', 'progress', 'mute', 'volume', 'play-large', 'fullscreen'],
+          // controls: ['play', 'progress', 'mute', 'volume', 'play-large', 'fullscreen'],
+          controls: [],
           loop: {
             active: this.enableVideoLooping
           },
