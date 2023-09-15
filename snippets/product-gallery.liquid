@@ -81,7 +81,6 @@
                       <div class="model-wrapper">
                         {{- media | model_viewer_tag: image_size: '1024x', reveal: 'interaction', toggleable: true -}}
                       </div>
-                  HERE!
                     </div>
 
                   {%- when 'external_video' -%}
@@ -89,15 +88,13 @@
                       <div class="video-wrapper">
                         {{- media | external_video_tag: image_size: '1024x', loop: section.settings.enable_video_looping -}}
                       </div>
-                                    HERE 2!
                     </div>
 
                   {%- when 'video' -%}
                     <div class="product-gallery__video">
                       <div class="video-wrapper video-wrapper--native" style="padding-bottom: {{ 100.0 | divided_by: media.aspect_ratio }}%">
-                        {{- media | video_tag: image_size: '1024x', controls: true -}}
+                        {{- media | video_tag: image_size: '1024x', controls: false -}}
                       </div>
-                      HERE 3!
                     </div>
                 {%- endcase -%}
               </div>
