@@ -81,6 +81,7 @@
                       <div class="model-wrapper">
                         {{- media | model_viewer_tag: image_size: '1024x', reveal: 'interaction', toggleable: true -}}
                       </div>
+                  HERE!
                     </div>
 
                   {%- when 'external_video' -%}
@@ -88,6 +89,7 @@
                       <div class="video-wrapper">
                         {{- media | external_video_tag: image_size: '1024x', loop: section.settings.enable_video_looping -}}
                       </div>
+                                    HERE 2!
                     </div>
 
                   {%- when 'video' -%}
