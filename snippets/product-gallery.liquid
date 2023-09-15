@@ -93,7 +93,7 @@
                   {%- when 'video' -%}
                     <div class="product-gallery__video">
                       <div class="video-wrapper video-wrapper--native" style="padding-bottom: {{ 100.0 | divided_by: media.aspect_ratio }}%">
-                        {{- media | video_tag: image_size: '1024x', controls: false -}}
+                        {{- media | video_tag: image_size: '1024x', controls: false, loop: true -}}
                       </div>
                     </div>
                 {%- endcase -%}
