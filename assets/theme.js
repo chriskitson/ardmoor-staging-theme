@@ -3842,9 +3842,12 @@
 
         this.player = new Shopify.Plyr(this.element.querySelector('video'), {
           // controls: ['play', 'progress', 'mute', 'volume', 'play-large', 'fullscreen'],
+          // loop: {
+          //   active: this.enableVideoLooping
+          // },
           controls: [],
           loop: {
-            active: this.enableVideoLooping
+            active: true
           },
           hideControlsOnPause: true,
           clickToPlay: true,
