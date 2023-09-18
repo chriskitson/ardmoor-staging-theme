@@ -22,7 +22,7 @@
   widget-id="Z4AfhWGUkIMxevgd"
   data-store-name="www.ardmoor.co.uk-bml7rmj"
   lang="en"
-  data-sku="{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }};{{ product.variants | map: 'sku' | join: ';' }}"
+  data-sku="{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }};{{ product.variants | map: 'sku' | replace: "my", "your" | join: ';' }}"
   tags="[! Remove brackets and provide tags if you wish to filter nuggets based on tags: e.g tag1;tag2 !]"
   branch="[! Remove brakcets and provide a branch name if you wish to filter nuggets by branch !]"
  ></div>
