@@ -12644,3 +12644,9 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+.product-form__payment-container .reviews-io-nuggets-widget {
+  width: 100%;
+}
+
+
