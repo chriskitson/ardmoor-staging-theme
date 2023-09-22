@@ -39,7 +39,7 @@
             "enabled": true,
             "id": "103522",
             "product_id_enabled": true,
-            "collection_id_enabled": false
+            "collection_id_enabled": true
           }
         },
         "2b6aa3c3-11ee-404b-b9f0-b3c39cde7322": {
