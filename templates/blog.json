@@ -48,7 +48,7 @@
             "enabled": true,
             "id": "108295",
             "product_id_enabled": true,
-            "collection_id_enabled": false
+            "collection_id_enabled": true
           }
         }
       },
