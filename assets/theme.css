@@ -1476,7 +1476,19 @@ img.lazyload[data-sizes=auto] {
     width: 16.666667%;
   }
 }
+
+.reviews-io-rating-bar-widget {
+  padding-left: 20px;
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
+
+  .reviews-io-rating-bar-widget {
+    display: block;
+    width: 20%;
+  }
+  
   .hidden-desk {
     display: none !important;
   }
