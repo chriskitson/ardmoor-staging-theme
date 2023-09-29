@@ -18,7 +18,7 @@
             </span>    
           </a>
         </div>
-        <h1 style="color:{{ section.settings.text_colour }}; font-size: {{ section.settings.main_heading_size }}px;">{{ section.settings.main_heading }}</h1>
+        <h1 style="color:{{ section.settings.text_colour }}; font-size: {{ section.settings.main_heading_size }}px; line-height: {{ section.settings.main_heading_size }}px;">{{ section.settings.main_heading }}</h1>
       </div>
     {%- elsif  section.settings.split_view -%}
       <div class="hero__main hero__main--split" style="color:{{ section.settings.text_colour }};">
@@ -28,7 +28,7 @@
         <div class="hero__main__item">
           <a href="{{ section.settings.split_category_link }}" class="hero__main__item__image"><img src="{{ section.settings.split_image | img_url: '700x480', crop: 'center' }}" alt="{{ section.settings.split_image.alt | escape }}" /></a>
         </div>
-        <h1 style="color:{{ section.settings.text_colour }}; font-size: {{ section.settings.main_heading_size }}px;">{{ section.settings.main_heading }}</h1>
+        <h1 style="color:{{ section.settings.text_colour }}; font-size: {{ section.settings.main_heading_size }}px; line-height: {{ section.settings.main_heading_size }}px;">{{ section.settings.main_heading }}</h1>
       </div>
     {%- elsif  section.settings.split_view_links -%}
       <div class="hero__main hero__main--split-links-only" style="color:{{ section.settings.text_colour }};">
