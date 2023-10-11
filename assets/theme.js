@@ -3845,7 +3845,7 @@
           // loop: {
           //   active: this.enableVideoLooping
           // },
-          controls: ['play'],
+          controls: [],
           loop: {
             active: true
           },
