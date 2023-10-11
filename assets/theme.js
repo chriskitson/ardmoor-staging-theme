@@ -3845,7 +3845,7 @@
           // loop: {
           //   active: this.enableVideoLooping
           // },
-          controls: [],
+          controls: ['play', 'progress', 'mute', 'volume', 'play-large', 'fullscreen'],
           loop: {
             active: true
           },
