@@ -3853,7 +3853,7 @@
           clickToPlay: true,
           iconUrl: '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.svg',
           tooltips: {
-            controls: true,
+            controls: false,
             seek: true
           }
         });
