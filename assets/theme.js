@@ -3849,11 +3849,11 @@
           loop: {
             active: true
           },
-          hideControlsOnPause: true,
+          hideControlsOnPause: false,
           clickToPlay: true,
           iconUrl: '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.svg',
           tooltips: {
-            controls: false,
+            controls: true,
             seek: true
           }
         });
