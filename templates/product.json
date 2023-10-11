@@ -136,17 +136,11 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "164485125509096963": {
-      "type": "trustpilot-examples",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1674057401f450fdc0",
-    "164485125509096963"
+    "1674057401f450fdc0"
   ]
 }
