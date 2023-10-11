@@ -3858,11 +3858,13 @@
           }
         });
         this.player.on('play', function () {
+          _this.player.restart();
           _this.element.dispatchEvent(new CustomEvent('video:played', {
             bubbles: true
           }));
         });
         this.player.on('pause', function () {
+          _this.player.restart();
           _this.element.dispatchEvent(new CustomEvent('video:paused', {
             bubbles: true
           }));
