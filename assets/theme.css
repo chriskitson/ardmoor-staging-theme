@@ -12674,6 +12674,12 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   margin-top: 10px;
 }
 
+.product-form__size-guide svg {
+    width: 20px;
+    height: 20px;
+    fill: #f7640f!important;
+}
+
 .product-form__size-guide a {
   color: #f7640f;
 }
