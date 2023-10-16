@@ -12662,4 +12662,8 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   margin-bottom: 20px;
 }
 
+.product-form__sizing-tip {
+  background: red;
+}
+
 
