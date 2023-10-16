@@ -12668,4 +12668,15 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   color: #ae0000;
 }
 
+.product-form__size-guide {
+  font-weight: bold;
+
+}
+
+.product-form__size-guide a {
+  color: #7db490;
+}
+
+
+
 
