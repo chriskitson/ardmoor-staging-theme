@@ -1,6 +1,8 @@
-<div class="product-form__sizing-tip">
-{{ product.metafields.custom.size_tip }}
-</div>
+{%- if product.metafields.custom.size_tip -%}
+  <div class="product-form__sizing-tip">
+    {{ product.metafields.custom.size_tip }}
+  </div>
+{%- endif -%}
 
 <div class="product-form__payment-container" {{ block.shopify_attributes }}>
   {%- if product.template_suffix != 'contact' -%}
