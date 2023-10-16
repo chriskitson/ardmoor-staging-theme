@@ -12672,6 +12672,8 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   font-weight: bold;
   font-size: 0.9em;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .product-form__size-guide svg {
