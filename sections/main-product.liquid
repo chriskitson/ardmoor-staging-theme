@@ -34,7 +34,7 @@
               {%- if collection -%}
                 <a class="breadcrumb__link link" href="{{ collection.url }}">{{ collection.title }}</a> {%- render 'icon', icon: 'arrow-right' -%}
               {%- else -%}
-                {% for collection in product.collections limit: 5 %}
+                {% for collection in product.collections limit: 4 %}
                   {% if collection.title != 'All Products' %}
                     <a class="breadcrumb__link link" href="{{ collection.url }}">{{ collection.title }}</a> {%- render 'icon', icon: 'arrow-right' -%}
                   {% endif %}
