@@ -44,9 +44,9 @@
                 {% endcomment %} 
               {%- endif -%}
             </li>
-             <!-- <li class="breadcrumb__item">
+             <li class="breadcrumb__item">
                <a class="breadcrumb__link link" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a> {%- render 'icon', icon: 'arrow-right' -%}
-             </li> -->
+             </li>
             <li class="breadcrumb__item">
               <span class="breadcrumb__link" aria-current="page">{{ product.title | truncate: 40 }}</span>
             </li>
@@ -847,8 +847,6 @@
                                           <option v-for="frequency in product.subscription_frequencies" v-bind:value="frequency">{{ frequencyLabel(frequency, product.subscription_interval) }}</option>
                                       </select>
                                   </div>
-
-          Chris K
           
                                   <div class="product-quantity" v-if="hasQuantityInputEnabled()">
                                       <div class="rebuy-select-wrapper">
