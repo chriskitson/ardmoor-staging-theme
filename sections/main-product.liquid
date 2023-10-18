@@ -44,9 +44,10 @@
                 {% endcomment %} 
               {%- endif -%}
             </li>
-             <li class="breadcrumb__item">
+             <!-- <li class="breadcrumb__item">
                <a class="breadcrumb__link link" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a> {%- render 'icon', icon: 'arrow-right' -%}
-             </li>
+             </li> -->
+    {{ product.vendor | url_for_vendor }}
             <li class="breadcrumb__item">
               <span class="breadcrumb__link" aria-current="page">{{ product.title | truncate: 40 }}</span>
             </li>
