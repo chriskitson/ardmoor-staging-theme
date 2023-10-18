@@ -135,7 +135,17 @@
   <input type="hidden" name="id" data-sku="{{ selected_variant.sku }}" value="{{ selected_variant.id }}">
 {%- endunless -%}
 
-Chris K
+{%- if product.metafields.custom.size_tip -%}
+  <div class="product-form__sizing-tip">
+    <strong>Size Tip:</strong> {{ product.metafields.custom.size_tip }}
+  </div>
+{%- endif -%}
+
+{%- if product.metafields.custom.size_guide -%}
+  <div class="product-form__size-guide">
+    <a href="{{ product.metafields.custom.size_guide }}">See Size Guide for further information.</a>
+  </div>
+{%- endif -%}
 
 <div class="product-form__info-list">
   {% comment %}
