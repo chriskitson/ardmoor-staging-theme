@@ -1,5 +1,3 @@
-Chris K
-
 {%- assign selected_variant = product.selected_or_first_available_variant -%}
 {%- assign product_form_id = 'product_form_' | append: section.id | append: product.id -%}
 
@@ -17,6 +15,7 @@ Chris K
 
           {%- when 'variant_selector' -%}
             {%- render 'product-variant-selector', product: product, form: form, block: block -%}
+    Chris K
 
           {%- when 'buy_buttons' -%}
             {%- render 'product-buy-buttons', product: product, form: form, block: block -%}
