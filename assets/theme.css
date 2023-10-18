@@ -12666,6 +12666,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   font-weight: bold;
   color: #f7640f;
   margin-bottom: 10px;
+  font-family: neuzeit-grotesk,sans-serif;
 }
 
 .product-form__sizing-tip span {
@@ -12677,6 +12678,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  font-family: neuzeit-grotesk,sans-serif;
 }
 
 .product-form__size-guide svg {
