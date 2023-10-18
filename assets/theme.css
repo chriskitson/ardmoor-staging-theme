@@ -12679,20 +12679,10 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   display: flex;
   align-items: center;
   font-family: neuzeit-grotesk,sans-serif;
-}
-
-.product-form__size-guide svg {
-    width: 20px;
-    height: 20px;
-    fill: #f7640f!important;
-    margin-right: 5px;
-    font-size: 0.9em;
+   color: #f7640f;
 }
 
 .product-form__size-guide a {
   color: #f7640f;
-}
-
-.product-form__size-guide a:hover {
   text-decoration: underline;
 }
