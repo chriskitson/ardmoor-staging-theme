@@ -48,8 +48,8 @@
                <a class="breadcrumb__link link" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a> {%- render 'icon', icon: 'arrow-right' -%}
              </li> -->
     
-
- <li class="breadcrumb__item">
+{{ collections[product.vendor] }}
+             <li class="breadcrumb__item">
                <a class="breadcrumb__link link" href="/collections/{{ product.vendor | downcase }}">{{ product.vendor }}</a> {%- render 'icon', icon: 'arrow-right' -%}
              </li>
     
