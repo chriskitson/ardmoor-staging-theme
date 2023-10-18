@@ -1,3 +1,15 @@
+{%- if product.metafields.custom.size_tip -%}
+  <div class="product-form__sizing-tip">
+    <strong>Size Tip:</strong> {{ product.metafields.custom.size_tip }}
+  </div>
+{%- endif -%}
+
+{%- if product.metafields.custom.size_guide -%}
+  <div class="product-form__size-guide">
+    <a href="{{ product.metafields.custom.size_guide }}">See Size Guide for further information.</a>
+  </div>
+{%- endif -%}
+
 <div class="product-form__payment-container" {{ block.shopify_attributes }}>
   {%- if product.template_suffix != 'contact' -%}
     {%- if product.selected_or_first_available_variant.available -%}
