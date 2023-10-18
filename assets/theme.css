@@ -12668,6 +12668,10 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   margin-bottom: 10px;
 }
 
+.product-form__sizing-tip span {
+  color: rgb(34, 32, 33);
+}
+
 .product-form__size-guide {
   font-weight: bold;
   margin-bottom: 10px;
