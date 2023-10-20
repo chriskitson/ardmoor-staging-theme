@@ -331,6 +331,10 @@
     }
     $('.line-item-property__field--personalise-options input').prop('required', $el.val() == 1);
   });
+    $('.size-chart-open-popup').magnificPopup({
+  type:'inline',
+  midClick: true
+});
   </script>
 
 {% endif %}
