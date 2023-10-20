@@ -141,6 +141,10 @@
   </div>
 {%- endif -%}
 
+{% if product.options contains 'Size' %}
+<a class="btn size-chart-open-popup" href="#size-chart">See size chart</a>
+{% endif %}
+
 {%- if product.metafields.custom.size_guide -%}
   <div class="product-form__size-guide">
     See <a href="{{ product.metafields.custom.size_guide }}">Size Guide</a> for further information
