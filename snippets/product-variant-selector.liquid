@@ -139,6 +139,11 @@
   <div class="product-form__sizing-tip">
     <span>Size Tip:</span> {{ product.metafields.custom.size_tip }}
   </div>
+  <script>
+$(function() {
+    console.log( "ready!" );
+});
+  </script>
 {%- endif -%}
 
 {% if product.options contains 'Size' %}
