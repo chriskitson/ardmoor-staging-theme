@@ -12670,6 +12670,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 
 .product-form__sizing-tip span {
   color: rgb(34, 32, 33);
+  width: 65px;
 }
 
 .product-form__size-guide {
