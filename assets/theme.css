@@ -12672,6 +12672,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   font-weight: bold;
   color: #f7640f;
   font-family: neuzeit-grotesk,sans-serif;
+  padding-left: 1.4em;
 }
 
 /* .product-form__sizing-tip span {
