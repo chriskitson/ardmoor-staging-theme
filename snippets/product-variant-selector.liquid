@@ -218,6 +218,15 @@
   {% endcomment %}
       
   {%- if block.settings.show_inventory_quantity and product.template_suffix != 'pre-order' -%}
+
+{%- if product.metafields.custom.size_tip -%}
+<div class="product-form__info-item">
+  <span class="product-form__info-title text--strong">Size Tip:</span>
+  <div class="product-form__info-content text--strong size-tip">{{ product.metafields.custom.size_tip }}</div>
+</div>
+{%- endif -%}
+
+  
     <div class="product-form__info-item">
       <span class="product-form__info-title text--strong">{{ 'product.form.inventory' | t }}:</span>
 
@@ -278,13 +287,6 @@
       <input type="hidden" name="quantity" value="1">
     {%- endif -%}
   {%- endif -%}
-
-{%- if product.metafields.custom.size_tip -%}
-<div class="product-form__info-item">
-  <span class="product-form__info-title text--strong">Size Tip:</span>
-  <div class="product-form__info-content text--strong size-tip">{{ product.metafields.custom.size_tip }}</div>
-</div>
-{%- endif -%}
   
 </div>
 
