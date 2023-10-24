@@ -141,7 +141,8 @@
   </div>
   <script>
   function onElementInserted(containerSelector, elementSelector, callback) {
-  
+
+    console.log('fired ok');
       var onMutationsObserved = function(mutations) {
           mutations.forEach(function(mutation) {
               if (mutation.addedNodes.length) {
@@ -164,7 +165,6 @@
   onElementInserted('body', '#Avada-SC-button', function(element) {
       console.log('here', element);
   });
-    console.log("here")
   </script>
 {%- endif -%}
 
