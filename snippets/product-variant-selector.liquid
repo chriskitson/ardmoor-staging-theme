@@ -219,8 +219,9 @@
     {%- endif -%}
 
     {%- if product.metafields.custom.size_guide -%}
-      <div class="product-form__size-guide">
-        See <a href="{{ product.metafields.custom.size_guide }}">size guide</a> for further information.
+        <div class="product-form__info-item">
+        <span class="product-form__info-title text--strong">Size Tip:</span>
+        <div class="product-form__info-content text--strong size-tip">See <a href="{{ product.metafields.custom.size_guide }}">size guide</a> for further information.</div>
       </div>
     {%- endif -%}
   
