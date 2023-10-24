@@ -136,10 +136,14 @@
 {%- endunless -%}
 
 {%- if product.metafields.custom.size_tip -%}
-  <div class="product-form__sizing-tip">
-    <span class="label">Size Tip:</span>
-    <span class="value">{{ product.metafields.custom.size_tip }}</span>
-  </div>
+
+<div class="product-form__info-item">
+      <span class="product-form__info-title text--strong">Size Tip:</span>
+      <div class="product-form__info-content">{{ product.metafields.custom.size_tip }}</div>
+</div>
+
+  
+
 {%- endif -%}
 
 {%- if product.metafields.custom.size_guide -%}
