@@ -214,16 +214,18 @@
     {%- if product.metafields.custom.size_tip -%}
       <div class="product-form__info-item">
         <span class="product-form__info-title text--strong">Size Tip:</span>
-        <div class="product-form__info-content text--strong size-tip">{{ product.metafields.custom.size_tip }}</div>
+        <div class="product-form__info-content text--strong size-tip">
+          {{ product.metafields.custom.size_tip }}
+          {%- if product.metafields.custom.size_guide -%}
+            <div class="size-guide">
+              See <a href="{{ product.metafields.custom.size_guide }}">size guide</a> for further information.</div>
+            </div>
+          {%- endif -%}
+        </div>
       </div>
     {%- endif -%}
 
-    {%- if product.metafields.custom.size_guide -%}
-        <div class="product-form__info-item">
-        <span class="product-form__info-title text--strong">&nbsp;</span>
-        <div class="product-form__info-content text--strong size-tip">See <a href="{{ product.metafields.custom.size_guide }}">size guide</a> for further information.</div>
-      </div>
-    {%- endif -%}
+
   
     <div class="product-form__info-item">
       <span class="product-form__info-title text--strong">{{ 'product.form.inventory' | t }}:</span>
