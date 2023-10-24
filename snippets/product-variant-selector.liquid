@@ -139,33 +139,12 @@
   <div class="product-form__sizing-tip">
     <span>Size Tip:</span> {{ product.metafields.custom.size_tip }}
   </div>
-  <script>
-  function onElementInserted(containerSelector, elementSelector, callback) {
+{%- endif -%}
 
-    console.log('fired ok');
-      var onMutationsObserved = function(mutations) {
-          mutations.forEach(function(mutation) {
-              if (mutation.addedNodes.length) {
-                  var elements = $(mutation.addedNodes).find(elementSelector);
-                  for (var i = 0, len = elements.length; i < len; i++) {
-                      callback(elements[i]);
-                  }
-              }
-          });
-      };
-  
-      var target = $(containerSelector)[0];
-      var config = { childList: true, subtree: true };
-      var MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
-      var observer = new MutationObserver(onMutationsObserved);    
-      observer.observe(target, config);
-  
-  }
-  
-  onElementInserted('body', '#Avada-SC-button', function(element) {
-      console.log('here', element);
-  });
-  </script>
+{%- if product.metafields.custom.size_guide -%}
+  <div class="product-form__size-guide">
+    <span>Size Tip:</span> {{ product.metafields.custom.size_guide }}
+  </div>
 {%- endif -%}
 
 <div class="product-form__info-list">
