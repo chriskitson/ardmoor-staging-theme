@@ -146,6 +146,7 @@
       var onMutationsObserved = function(mutations) {
           mutations.forEach(function(mutation) {
               if (mutation.addedNodes.length) {
+                console.log(elementSelector);
                   var elements = $(mutation.addedNodes).find(elementSelector);
                   for (var i = 0, len = elements.length; i < len; i++) {
                       callback(elements[i]);
