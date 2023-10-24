@@ -12684,8 +12684,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
     height: 8px;
     left: 0;
     top: 0.45em;
-    border-radius: 100%;
-    background: currentColor;
 }
 
 /* .product-form__sizing-tip span {
