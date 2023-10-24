@@ -12675,6 +12675,16 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   padding-left: 1.4em;
 }
 
+.product-form__info-content.size-tip:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    left: 0;
+    top: 0.45em;
+}
+
 /* .product-form__sizing-tip span {
   display: inline-block;
 }
