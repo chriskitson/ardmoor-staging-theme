@@ -12676,6 +12676,10 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   position: relative;
 }
 
+.product-form__info-content.size-tip a {
+  text-decoration: underline;
+}
+
 .product-form__info-content.size-tip::before {
     position: absolute;
     display: inline-block;
