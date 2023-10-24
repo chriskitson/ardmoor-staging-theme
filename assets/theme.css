@@ -12669,6 +12669,16 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 }
 
 .product-form__sizing-tip span {
+  display: inline-block;
+}
+
+.product-form__sizing-tip .label {
+  color: rgb(34, 32, 33);
+  width: 77px;
+  display: inline-block;
+}
+
+.product-form__sizing-tip .value {
   color: rgb(34, 32, 33);
   width: 77px;
   display: inline-block;
