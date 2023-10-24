@@ -146,17 +146,7 @@ $(function() {
   </script>
 {%- endif -%}
 
-<!-- {% if product.options contains 'Size' %}
-    <div class="product-form__size-guide">
- See <a class="btn size-chart-open-popup" href="#size-chart">Size Guide</a> for further information
-        </div>
-{% endif %} -->
-
-<!-- {%- if product.metafields.custom.size_guide -%}
-  <div class="product-form__size-guide">
-    See <a href="{{ product.metafields.custom.size_guide }}">Size Guide</a> for further information
-  </div>
-{%- endif -%} -->
+**{{ pages.size-chart.content }}**
 
 <div class="product-form__info-list">
   {% comment %}
