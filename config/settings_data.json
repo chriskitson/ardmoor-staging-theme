@@ -313,8 +313,8 @@
             "type": "item",
             "settings": {
               "icon": "bi-customer-support",
-              "title": "Trusted Since 2010 | Over 200,000 Orders Shipped",
-              "content": "",
+              "title": "Trusted Since 2010",
+              "content": "<p>Over 200,000 Orders Shipped<\/p>",
               "link": "shopify:\/\/pages\/contact-us"
             }
           }
