@@ -312,7 +312,7 @@
           "static-text-with-icons-3": {
             "type": "item",
             "settings": {
-              "icon": "bi-customer-support",
+              "icon": "bi-shield",
               "title": "Trusted Since 2010",
               "content": "<p>Over 200,000 Orders Shipped<\/p>",
               "link": "shopify:\/\/pages\/contact-us"
