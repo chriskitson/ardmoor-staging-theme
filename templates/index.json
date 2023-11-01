@@ -63,9 +63,9 @@
       "settings": {
         "text_colour": "#ffffff",
         "main_heading": "",
-        "main_heading_size": 60,
+        "main_heading_size": 59,
         "main_category_heading": "Shop Waterproof Clothing",
-        "main_category_heading_size": 26,
+        "main_category_heading_size": 35,
         "main_category_background_colour": "rgba(0,0,0,0)",
         "main_category_text_colour": "#ffffff",
         "main_category_link": "shopify:\/\/collections\/mens",
