@@ -12662,12 +12662,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   margin-bottom: 20px;
 }
 
-/* .product-form__sizing-tip {
-  font-weight: bold;
-  color: #f7640f;
-  font-family: neuzeit-grotesk,sans-serif;
-} */
-
 .product-form__info-content.size-tip {
   font-weight: bold;
   color: #f7640f;
@@ -12689,22 +12683,6 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 .product-form__info-content.size-tip  a {
   text-decoration: underline;
 }
-
-/* .product-form__sizing-tip span {
-  display: inline-block;
-}
-
-.product-form__sizing-tip .label {
-  color: rgb(34, 32, 33);
-  width: 76.38px;
-  padding-right: 12px;
-  display: inline-block;
-}
-
-.product-form__sizing-tip .value {
-  color: rgb(34, 32, 33);
-  display: inline-block;
-} */
 
 .product-form__size-guide {
   font-weight: bold;
