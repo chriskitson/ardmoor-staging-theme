@@ -10,6 +10,14 @@
     	<span class="product-button new-product gallery-button">New</span>
     {%- endif -%}	
     {%- if product.tags contains 'Black Friday' -%}
+
+    <div class="promo promo--black-friday">
+      <div class="promo-discount-prefix">Save</div>                   
+      <div class="promo-discount">£99.99</div>
+    </div>
+
+      <!-- v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100) -->
+      
     	<span class="product-button new-product gallery-button">BF</span>
     {%- endif -%}	
     <div class="card__section card__section--tight">
