@@ -10,8 +10,7 @@
       </div>
   {%- elsif product.tags contains 'Sale' -%}
     	<span class="product-button sale-product gallery-button">Sale</span>
-    {%- endif -%}
-    {%- if product.tags contains 'New' -%}
+    {%- else product.tags contains 'New' -%}
     	<span class="product-button new-product gallery-button">New</span>
     {%- endif -%}	
     <div class="card__section card__section--tight">
