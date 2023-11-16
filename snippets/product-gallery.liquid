@@ -3,22 +3,16 @@
 
   <div class="card">
     
-    {%- if product.tags contains 'Sale' -%}
+    {%- if product.tags contains 'Black Friday' -%}
+        <div class="promo promo--black-friday">
+        <div class="promo-discount-prefix">Save</div>                   
+        <div class="promo-discount">£99.99</div>
+      </div>
+  {%- elsif product.tags contains 'Sale' -%}
     	<span class="product-button sale-product gallery-button">Sale</span>
     {%- endif -%}
     {%- if product.tags contains 'New' -%}
     	<span class="product-button new-product gallery-button">New</span>
-    {%- endif -%}	
-    {%- if product.tags contains 'Black Friday' -%}
-
-      <div class="promo promo--black-friday">
-        <div class="promo-discount-prefix">Save</div>                   
-        <div class="promo-discount">£99.99</div>
-      </div>
-
-      <!-- v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100) -->
-      
-
     {%- endif -%}	
     <div class="card__section card__section--tight">
       <div class="product-gallery {% if show_thumbnails_if_one_media %}product-gallery--with-thumbnails{% endif %}">
