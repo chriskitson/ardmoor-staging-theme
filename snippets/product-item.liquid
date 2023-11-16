@@ -9,9 +9,7 @@
           <span class="product-label product-label--custom1">{{ tag | split: '__label:' | last }}</span>
         {%- endif -%}
   
-  		{%- if tag contains 'Black Friday' -%}
-          BF
-        {%- elsif tag contains 'New' -%}
+  		{%- if tag contains 'New' -%}
           <span class="product-button new-product">New</span>
         {%- elsif tag contains 'Sale' -%}
           <span class="product-button sale-product">Sale
