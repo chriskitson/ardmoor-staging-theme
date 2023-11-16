@@ -12698,3 +12698,18 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   text-decoration: underline;
   margin: 0 5px;
 }
+
+.promo {
+  background: red;
+}
+
+.promo.promo--black-friday {
+
+}
+
+
+
+        <div class="promo promo--black-friday">
+                                <span class="promo-name">Black Friday</span>
+                                <span class="promo-discount">&pound;99.99 off</span>
+                              </div>
