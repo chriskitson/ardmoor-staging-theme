@@ -12734,3 +12734,8 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   font-size: 1.1em;
   margin-bottom: 10px;
 }
+
+.product-block-list__item .promo {
+  right: 10px;
+  top: 10px;
+}
