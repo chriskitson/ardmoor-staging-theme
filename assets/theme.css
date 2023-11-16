@@ -12743,19 +12743,19 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 
 #shopify-section-template--15945709060260__main #snize_results div.snize-product-label.top-left {
   background: #000000 !important;
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 80px;
-  width: 80px;
-  padding: 7px 5px;
-  border-radius: 100%;
-  line-height: 1.0em;
-  font-weight: 900;
-  color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  z-index: 1;
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  height: 80px !important;
+  width: 80px !important;
+  padding: 7px 5px !important;
+  border-radius: 100% !important;
+  line-height: 1.0em !important;
+  font-weight: 900 !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  z-index: 1 !important;
 }
