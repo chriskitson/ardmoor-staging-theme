@@ -7,9 +7,13 @@
   
     
     {%- if product.tags contains 'Black Friday' -%}
+
+{% assign price = product.selected_or_first_available_variant.price %}
+{% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
+      
         <div class="promo promo--black-friday">
         <div class="promo-discount-prefix">Save</div>                   
-        <div class="promo-discount">£{{- product.compare_at_price }}</div>
+        <div class="promo-discount">£{{ compare_at_price - price }}</div>
       </div>
   {%- elsif product.tags contains 'Sale' -%}
     	<span class="product-button sale-product gallery-button">Sale</span>
