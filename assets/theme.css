@@ -12717,13 +12717,14 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   background-color: #000000;
 }
 
+.promo-name {
+  font-size: 0.9em;
+}
+
+.promo-discount {
+  font-size: 1.2em;
+}
+
 .promo-discount-off {
   font-size: 0.8em;
 }
-
-
-
-        <div class="promo promo--black-friday">
-                                <span class="promo-name">Black Friday</span>
-                                <span class="promo-discount">&pound;99.99 off</span>
-                              </div>
