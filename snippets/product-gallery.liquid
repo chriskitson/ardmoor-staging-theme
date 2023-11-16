@@ -13,7 +13,7 @@
       
         <div class="promo promo--black-friday">
         <div class="promo-discount-prefix">Save</div>                   
-        <div class="promo-discount">{{ compare_at_price | minus: price | money_with_currency }}</div>
+        <div class="promo-discount">{{ compare_at_price | minus: price | money }}</div>
       </div>
   {%- elsif product.tags contains 'Sale' -%}
     	<span class="product-button sale-product gallery-button">Sale</span>
