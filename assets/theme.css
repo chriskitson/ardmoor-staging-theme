@@ -12758,4 +12758,7 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   align-items: center !important;
   flex-direction: column !important;
   z-index: 1 !important;
+  font-size: 1.2em !important;
+  white-space: inherit !important;
+  text-align: center !important;
 }
