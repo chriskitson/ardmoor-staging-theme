@@ -38,17 +38,17 @@
         "65d392c4-4aea-4b4f-a127-7a6aef7ab122": {
           "type": "image",
           "settings": {
-            "title": "Black Friday Brand TBC",
-            "link": "shopify:\/\/collections\/hoggs-of-fife",
-            "image": "shopify:\/\/shop_images\/Ridgeline_Clothing_UK.jpg"
+            "title": "Black Friday Musto",
+            "link": "shopify:\/\/collections\/musto",
+            "image": "shopify:\/\/shop_images\/HOMEPAGE-MUSTO-50_-OFF.jpg"
           }
         },
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb": {
           "type": "image",
           "settings": {
-            "title": "Black Friday Brand TBC",
-            "link": "shopify:\/\/collections\/sale",
-            "image": "shopify:\/\/shop_images\/Hoggs_of_Fife_Luthie_Shirt.._991f9ed9-f634-47ba-8add-1478f57cad76.jpg"
+            "title": "Black Friday Dubarry",
+            "link": "shopify:\/\/collections\/dubarry",
+            "image": "shopify:\/\/shop_images\/DUBARRY-50_-OFF.jpg"
           }
         }
       },
