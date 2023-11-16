@@ -763,7 +763,10 @@
           
                           <div class="rebuy-product-block" v-for="(product, product_index) in products" v-bind:class="[product.handle, 'product-id-' + product.id, cartHasProduct(product) ? 'cart-has-item' : '', productTagClasses(product)]">
 
-
+                              <div class="promo promo--black-friday" v-if="product.tags.includes('Black Friday')">
+                                <div class="promo-discount-prefix">Save</div>                   
+                                <div class="promo-discount" v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100)"></div>
+                              </div>
         
                               <div class="rebuy-product-media">
                                   <a class="rebuy-product-image" v-bind:href="learnMoreURL(product)" v-bind:style="imageStyles" v-on:click="learnMore(product);" v-bind:class="[hasLearnMore() ? 'clickable' : '']">
@@ -924,7 +927,10 @@
           
                           <div class="rebuy-product-block" v-for="(product, product_index) in products" v-bind:class="[product.handle, 'product-id-' + product.id, cartHasProduct(product) ? 'cart-has-item' : '', productTagClasses(product)]">
 
-         
+                              <div class="promo promo--black-friday" v-if="product.tags.includes('Black Friday')">
+                                <div class="promo-discount-prefix">Save</div>                   
+                                <div class="promo-discount" v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100)"></div>
+                              </div>
         
                               <div class="rebuy-product-media">
                                   <a class="rebuy-product-image" v-bind:href="learnMoreURL(product)" v-bind:style="imageStyles" v-on:click="learnMore(product);" v-bind:class="[hasLearnMore() ? 'clickable' : '']">
