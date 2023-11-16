@@ -8,7 +8,10 @@
     {%- endif -%}
     {%- if product.tags contains 'New' -%}
     	<span class="product-button new-product gallery-button">New</span>
-    {%- endif -%}			 
+    {%- endif -%}	
+    {%- if product.tags contains 'Black Friday' -%}
+    	<span class="product-button new-product gallery-button">BF</span>
+    {%- endif -%}	
     <div class="card__section card__section--tight">
       <div class="product-gallery {% if show_thumbnails_if_one_media %}product-gallery--with-thumbnails{% endif %}">
         {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
