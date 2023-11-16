@@ -36,8 +36,7 @@
           
                           <div class="rebuy-product-block" v-for="(product, product_index) in products" v-bind:class="[product.handle, 'product-id-' + product.id, cartHasProduct(product) ? 'cart-has-item' : '', productTagClasses(product)]">
 
-        <div v-if="product.tags.includes('black-friday')">**</div>
-                              <div class="promo promo--black-friday">
+                              <div class="promo promo--black-friday" v-if="product.tags.includes('black-friday')">
                                 <div class="promo-name">Black Friday</div>
                                 <div class="promo-discount" v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100)"></div>
                                 <div class="promo-discount-off">off</div>
