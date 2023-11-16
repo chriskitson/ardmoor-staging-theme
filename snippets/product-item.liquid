@@ -9,9 +9,10 @@
           <span class="product-label product-label--custom1">{{ tag | split: '__label:' | last }}</span>
         {%- endif -%}
   
-  		{%- if tag contains 'New' -%}
+  		{%- if tag contains 'black-friday' -%}
+          BF
+        {%- elsif tag contains 'New' -%}
           <span class="product-button new-product">New</span>
-  
         {%- elsif tag contains 'Sale' -%}
           <span class="product-button sale-product">Sale
     	  	<span class="sale-note">Save&nbsp;{{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}
