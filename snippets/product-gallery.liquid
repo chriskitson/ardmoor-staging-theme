@@ -2,11 +2,14 @@
   {%- assign show_thumbnails_if_one_media = true -%}
 
   <div class="card">
+
+<!-- formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100) -->
+  
     
     {%- if product.tags contains 'Black Friday' -%}
         <div class="promo promo--black-friday">
         <div class="promo-discount-prefix">Save</div>                   
-        <div class="promo-discount">£99.99</div>
+        <div class="promo-discount">£{{- product.selected_variant }}</div>
       </div>
   {%- elsif product.tags contains 'Sale' -%}
     	<span class="product-button sale-product gallery-button">Sale</span>
