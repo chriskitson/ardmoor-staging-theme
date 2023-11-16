@@ -12701,6 +12701,9 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 
 .promo {
   background: red;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .promo.promo--black-friday {
