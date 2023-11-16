@@ -12715,6 +12715,10 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
 
 }
 
+.promo-discount-off {
+  font-size: 0.8em;
+}
+
 
 
         <div class="promo promo--black-friday">
