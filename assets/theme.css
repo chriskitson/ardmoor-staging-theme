@@ -12709,10 +12709,12 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   padding: 10px 5px;
   border-radius: 100%;
   line-height: 1.0em;
+  font-weight: 900;
+  color: #FFFFFF;
 }
 
 .promo.promo--black-friday {
-
+  background-color: #000000;
 }
 
 .promo-discount-off {
