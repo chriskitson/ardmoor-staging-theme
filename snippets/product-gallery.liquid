@@ -2,24 +2,20 @@
   {%- assign show_thumbnails_if_one_media = true -%}
 
   <div class="card">
-
-<!-- formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100) -->
   
-    
     {%- if product.tags contains 'Black Friday' -%}
-
-{% assign price = product.selected_or_first_available_variant.price %}
-{% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
-      
-        <div class="promo promo--black-friday">
+      {% assign price = product.selected_or_first_available_variant.price %}
+      {% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
+      <div class="promo promo--black-friday">
         <div class="promo-discount-prefix">Save</div>                   
         <div class="promo-discount">{{ compare_at_price | minus: price | money }}</div>
       </div>
-  {%- elsif product.tags contains 'Sale' -%}
-    	<span class="product-button sale-product gallery-button">Sale</span>
+    {%- elsif product.tags contains 'Sale' -%}
+        <span class="product-button sale-product gallery-button">Sale</span>
     {%- else product.tags contains 'New' -%}
-    	<span class="product-button new-product gallery-button">New</span>
-    {%- endif -%}	
+        <span class="product-button new-product gallery-button">New</span>
+    {%- endif -%}
+  
     <div class="card__section card__section--tight">
       <div class="product-gallery {% if show_thumbnails_if_one_media %}product-gallery--with-thumbnails{% endif %}">
         {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
