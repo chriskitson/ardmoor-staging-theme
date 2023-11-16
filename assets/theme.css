@@ -12711,6 +12711,9 @@ li.nav-bar__item.nav-bar__item--static:nth-child(8) .nav-bar__link, .sale-nav {
   line-height: 1.0em;
   font-weight: 900;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .promo.promo--black-friday {
