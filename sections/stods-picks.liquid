@@ -39,7 +39,7 @@
 
                               <div class="promo promo--black-friday">
                                 <div class="promo-name">Black Friday</div>
-                                <div class="promo-discount" v-html="variantCompareAtPrice(product, product.selected_variant) - variantCompareAtPrice(product, product.selected_variant)"></div>
+                                <div class="promo-discount" v-html="variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)"></div>
                                 <div class="promo-discount-off">off</div>
                               </div>
         
