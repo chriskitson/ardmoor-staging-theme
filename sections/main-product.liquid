@@ -929,7 +929,7 @@
 
                               <div class="promo promo--black-friday" v-if="product.tags.includes('Black Friday')">
                                 <div class="promo-discount-prefix">Save</div>                   
-                                <div class="promo-discount" v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) - variantPrice(product, product.selected_variant)) * 100)"></div>
+                                <div class="promo-discount" v-html="formatMoney((variantCompareAtPrice(product, product.selected_variant) * 100) - (variantPrice(product, product.selected_variant) * 100))"></div>
                               </div>
         
                               <div class="rebuy-product-media">
