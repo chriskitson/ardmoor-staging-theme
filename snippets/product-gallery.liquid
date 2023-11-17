@@ -12,7 +12,7 @@
       </div>
     {%- elsif product.tags contains 'Sale' -%}
         <span class="product-button sale-product gallery-button">Sale</span>
-    {%- else product.tags contains 'New' -%}
+    {%- elsif product.tags contains 'New' -%}
         <span class="product-button new-product gallery-button">New</span>
     {%- endif -%}
   
