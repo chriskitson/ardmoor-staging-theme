@@ -61,13 +61,13 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "text_colour": "#ffffff",
+        "text_colour": "#970000",
         "main_heading": "End of Season Shooting Sale",
-        "main_heading_size": 60,
+        "main_heading_size": 57,
         "main_category_heading": "Shop Now",
         "main_category_heading_size": 40,
         "main_category_background_colour": "rgba(0,0,0,0)",
-        "main_category_text_colour": "#970000",
+        "main_category_text_colour": "#ffffff",
         "main_category_link": "shopify:\/\/collections\/gifts",
         "main_image": "shopify:\/\/shop_images\/End-Of-Season-Shooting-Sale-2024.jpg",
         "split_view": false,
