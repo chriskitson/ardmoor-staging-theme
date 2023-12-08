@@ -101,6 +101,14 @@
             "product_id_enabled": true,
             "collection_id_enabled": true
           }
+        },
+        "52cc723c-b09b-4fc4-aeef-e5eb5fa2dd4c": {
+          "type": "shopify:\/\/apps\/flair-product-labels-badges\/blocks\/product-badges\/51d5ae10-f90f-4540-9ec6-f09f14107bf4",
+          "settings": {
+            "heading": "Flair product badges",
+            "layout": "",
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -114,7 +122,8 @@
         "82e44bf0-0f32-49d5-b3d3-034c460db1e8",
         "4e6a5960-e2e9-4075-92ed-5694cfdbb7b4",
         "e554168f-105c-48cd-aa3d-ba9acb246432",
-        "38a49a2b-c9af-415f-b56c-e81571d4b693"
+        "38a49a2b-c9af-415f-b56c-e81571d4b693",
+        "52cc723c-b09b-4fc4-aeef-e5eb5fa2dd4c"
       ],
       "settings": {
         "image_size": "large",
