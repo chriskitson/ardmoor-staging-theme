@@ -3,14 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "52cc723c-b09b-4fc4-aeef-e5eb5fa2dd4c": {
-          "type": "shopify:\/\/apps\/flair-product-labels-badges\/blocks\/product-badges\/51d5ae10-f90f-4540-9ec6-f09f14107bf4",
-          "settings": {
-            "heading": "Flair product badges",
-            "layout": "",
-            "product": "{{product}}"
-          }
-        },
         "product_meta": {
           "type": "product_meta",
           "settings": {
@@ -112,7 +104,6 @@
         }
       },
       "block_order": [
-        "52cc723c-b09b-4fc4-aeef-e5eb5fa2dd4c",
         "product_meta",
         "variant_selector",
         "buy_buttons",
