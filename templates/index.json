@@ -64,10 +64,10 @@
         "text_colour": "#ffffff",
         "main_heading": "",
         "main_heading_size": 51,
-        "main_category_heading": "Shop Boxing Day Sale",
+        "main_category_heading": "Shop Sale",
         "main_category_heading_size": 40,
         "main_category_background_colour": "rgba(0,0,0,0)",
-        "main_category_text_colour": "#ffffff",
+        "main_category_text_colour": "#9f2027",
         "main_category_link": "shopify:\/\/collections\/gifts",
         "main_image": "shopify:\/\/shop_images\/BOXING-DAY-HOMEPAGE-2.jpg",
         "split_view": false,
@@ -75,7 +75,7 @@
         "split_category_heading": "Women's",
         "split_category_heading_size": 20,
         "split_category_background_colour": "#1b1616",
-        "split_category_text_colour": "#ffffff",
+        "split_category_text_colour": "#9f2027",
         "split_category_link": "shopify:\/\/collections\/womens",
         "split_image": "shopify:\/\/shop_images\/Dubarry_Beach_Life.jpg"
       }
