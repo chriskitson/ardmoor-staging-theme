@@ -2,7 +2,8 @@
   {%- assign show_thumbnails_if_one_media = true -%}
 
   <div class="card">
-  
+
+    {%  comment %}
     {%- if product.tags contains 'Black Friday' -%}
       {% assign price = product.selected_or_first_available_variant.price %}
       {% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
@@ -15,6 +16,7 @@
     {%- elsif product.tags contains 'New' -%}
         <span class="product-button new-product gallery-button">New</span>
     {%- endif -%}
+    {%  endcomment %}
   
     <div class="card__section card__section--tight">
       <div class="product-gallery {% if show_thumbnails_if_one_media %}product-gallery--with-thumbnails{% endif %}">
