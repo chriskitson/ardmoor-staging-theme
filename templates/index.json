@@ -61,12 +61,12 @@
         "bba9d303-4bbd-4f49-9c03-76aa3d3a78eb"
       ],
       "settings": {
-        "text_colour": "#ffffff",
+        "text_colour": "#9f2027",
         "main_heading": "",
         "main_heading_size": 51,
         "main_category_heading": "Shop Sale",
         "main_category_heading_size": 40,
-        "main_category_background_colour": "rgba(0,0,0,0)",
+        "main_category_background_colour": "#ffffff",
         "main_category_text_colour": "#9f2027",
         "main_category_link": "shopify:\/\/collections\/gifts",
         "main_image": "shopify:\/\/shop_images\/BOXING-DAY-HOMEPAGE-2.jpg",
