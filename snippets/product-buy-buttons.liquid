@@ -329,7 +329,7 @@
   </div>
 
 
-  {% capture 'variant_availability' %}
+  {% capture variant_availability %}
   {% for variant in product.variants %}
   {{variant.id}}:{{ variant.metafields.variant.availability | json }}{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -356,7 +356,7 @@
 
   </script>     
 
-  {% capture 'variant_availabilityDetail' %}
+  {% capture variant_availabilityDetail %}
   {% for variant in product.variants %}
   {{variant.id}}:{{ variant.metafields.variant.availabilitydetail | json }}{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -392,4 +392,16 @@
      data-metafields="{{ product.metafields.esc-size-matters.tag }}"
      data-popup="">
 </div>
+{%- endcomment -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% capture 'variant_availability' %}"
+  to: "{% capture variant_availability %}"
+  position: 26353..26387
+- from: "{% capture 'variant_availabilityDetail' %}"
+  to: "{% capture variant_availabilityDetail %}"
+  position: 27259..27299
 {%- endcomment -%}
